@@ -16,7 +16,7 @@
 However, it does not include the factors like safety, existing demography that will affect the feasibility of transition and may cause gentrification.
 </p>
 
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/raw_data/Study_area_map_initial.png)
+![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/Study_area_map_initial.png)
 
 <h3><b>Scopes and Goals</b></h3>
 <p>Thus, in this project I decide to produce a memo/report for local government to identify possible TOD locations and their feasibility to be redeveloped and renewed based on more comprehensive factors including possibility of gentrification.</p>
@@ -31,7 +31,7 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
 <li>Folder raw_data/ with raw data.</li>
     <ul>
       <li>Tidycensus map (png) and shapefile of the DVRPC area</li>
-      <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-2015-land-use/explore?location=39.977361%2C-75.184975%2C10.68">Greater PHL land use 2015</a> from DVRPC. Other Land Use/Parcel data may be used (not downloaded):</li>
+      <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-2015-land-use/explore?location=39.977361%2C-75.184975%2C10.68">Greater PHL land use 2015</a> from DVRPC (shp and dbf are too large to be uploaded, but I saved them locally). Other Land Use/Parcel data may be used (not downloaded):</li>
         <ul>
             <li><a href="https://www.opendataphilly.org/dataset/land-use">OpenDataPhilly PHL Land Use</a>: API available</li>
             <li><a href="https://data-montcopa.opendata.arcgis.com/datasets/montgomery-county-parcels-1">Montgomery County Land Use</a>: API not available</li>

@@ -1,6 +1,6 @@
 # Huang_lechuan_todphilly
 
-<h2><b>MUSA Capstone/CPLN745</b></h2>
+<h2><b>MUSA Capstone/CPLN680</b></h2>
 <p>by Lechuan Huang</p>
 
 <h2><b>Project:</b></h2>

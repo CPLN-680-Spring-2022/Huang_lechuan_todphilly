@@ -17,7 +17,7 @@ However, it does not include the factors like safety, existing demography that w
 </p>
 
 ![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/DVRPC_Rail_stations.png)
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/Vacant_lots.png)
+![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/Vacantlot_TODbuffer.png)
 
 <h3><b>Scopes and Goals</b></h3>
 <p>Thus, in this project I decide to produce a memo/report for local government to identify possible TOD locations and their feasibility to be redeveloped and renewed based on more comprehensive factors including possibility of gentrification.</p>

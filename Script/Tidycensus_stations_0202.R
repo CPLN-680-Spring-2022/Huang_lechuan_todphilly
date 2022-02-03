@@ -94,6 +94,28 @@ ggplot() +
        caption="Figure xx") +
   mapTheme()
 
+#Buffer
+Buffers <- 
+  rbind(st_buffer(DVRPC_railstops, 2640) %>%
+      mutate(Legend = "Buffer") %>%
+      dplyr::select(Legend),
+    st_union(st_buffer(DVRPC_railstops, 2640)) %>%
+      st_sf() %>%
+      mutate(Legend = "Unioned Buffer"))
+
+ggplot() +
+  geom_sf(data=st_union(Study.sf)) +
+  geom_sf(data=Buffers) +
+  geom_sf(data=DVRPC_railstops, show.legend = "point") +
+  facet_wrap(~Legend) + 
+  labs(caption = "Figure xx") +
+  mapTheme()
+
+unionbuffer <- filter(Buffers, Legend=="Unioned Buffer")
+
+#Join study.sf to TOD Buffer
+
+
 #blockgroups with the most vacant lots
 
 Vacantlots <- filter(Study.sf, TotalPop > 500)%>%
@@ -103,6 +125,7 @@ Vacantlots <- filter(Study.sf, TotalPop > 500)%>%
 ggplot(Vacantlots)+
   geom_sf(data = st_union(Vacantlots))+
   geom_sf(aes(fill = q5(pct_vacant))) +
+  geom_sf(data = unionbuffer, fill = "transparent", color = "red")+
   scale_fill_manual(values = c("#f0f9e8","#bae4bc","#7bccc4","#43a2ca","#0868ac"),
                     labels = qBr(Vacantlots, "pct_vacant"),
                     name = "pct_vacant\n(Quintile Breaks)") +

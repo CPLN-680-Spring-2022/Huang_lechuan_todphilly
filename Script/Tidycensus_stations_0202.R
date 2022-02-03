@@ -93,3 +93,19 @@ ggplot() +
        subtitle="Philadelphia, PA", 
        caption="Figure xx") +
   mapTheme()
+
+#blockgroups with the most vacant lots
+
+Vacantlots <- filter(Study.sf, TotalPop > 500)%>%
+  dplyr::select(GEOID, NAME, TotalPop, Totallot, Vacant_lot)%>%
+  mutate(pct_vacant = (Vacant_lot/Totallot) * 100)
+
+ggplot(Vacantlots)+
+  geom_sf(data = st_union(Vacantlots))+
+  geom_sf(aes(fill = q5(pct_vacant))) +
+  scale_fill_manual(values = c("#f0f9e8","#bae4bc","#7bccc4","#43a2ca","#0868ac"),
+                    labels = qBr(Vacantlots, "pct_vacant"),
+                    name = "pct_vacant\n(Quintile Breaks)") +
+  labs(title = "Percentage of Vacant lot", subtitle = "DVRPC") +
+  mapTheme() + 
+  theme(plot.title = element_text(size=22))

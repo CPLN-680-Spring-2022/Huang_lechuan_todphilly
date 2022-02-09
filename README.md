@@ -17,7 +17,8 @@ However, it does not include the factors like safety, existing demography that w
 </p>
 
 ![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/DVRPC_Rail_stations.png)
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/Vacantlot_TODbuffer.png)
+![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/cleaned_data/vacant_lots+todbuffer.png)
+![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/cleaned_data/TODtracs.png)
 
 <h3><b>Scopes and Goals</b></h3>
 <p>Thus, in this project I decide to produce a memo/report for local government to identify possible TOD locations and their feasibility to be redeveloped and renewed based on more comprehensive factors including possibility of gentrification.</p>
@@ -44,6 +45,11 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
             <li><a href="https://www.opendataphilly.org/dataset/walk-score-phila-only">PHL Walk/Transit Score</a>: Free API available</li>
             <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpc-long-range-plan-2045-land-use-vision/explore?location=40.056487%2C-75.245250%2C9.88">DVRPC 2045 Land Use Vision</a>: API not available</li>
         </ul>      
+    </ul>
+<li>Folder with cleaned data.</li>
+    <ul>
+      <li>Tidycensus tract map with certain variables</li>
+      <li>Transit stations with type and symbological marks</li>
     </ul>
 <li>Folder (R, py, src, scripts) with initial code to explore the data.</li>
     <ul>

@@ -31,7 +31,7 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
 <h2><b>Folder Organization</b></h2>
 <p>
 
-<li>Folder [`/raw_data`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/raw_data) with raw data.</li>
+<li>Folder <li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/raw_data">`/raw_data`</a>: with raw data.</li>
     <ul>
       <li>Tidycensus map (png) and shapefile of the DVRPC area</li>
       <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-2015-land-use/explore?location=39.977361%2C-75.184975%2C10.68">Greater PHL land use 2015</a> from DVRPC (shp and dbf are too large to be uploaded, but I saved them locally). Other Land Use/Parcel data may be used (not downloaded):</li>

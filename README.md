@@ -34,27 +34,28 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
     <ul>
       <li>Tidycensus map (png) and shapefile of the DVRPC area</li>
       <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-2015-land-use/explore?location=39.977361%2C-75.184975%2C10.68">Greater PHL land use 2015</a> from DVRPC (shp and dbf are too large to be uploaded, but I saved them locally). Other Land Use/Parcel data may be used (not downloaded):</li>
+      <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-passenger-rail-stations/explore?location=40.082286%2C-74.972245%2C10.63">Greater PHL Rail stations</a> from DVRPC</li>
+      <li>Shapefile of <a href="https://www.dvrpc.org/webmaps/TOD/#map">DVRPC's existing TOD index</a>: obtained by email</li>
+      <li>Other data may be used (not used/downloaded yet):</li>
         <ul>
             <li><a href="https://www.opendataphilly.org/dataset/land-use">OpenDataPhilly PHL Land Use</a>: API available</li>
             <li><a href="https://data-montcopa.opendata.arcgis.com/datasets/montgomery-county-parcels-1">Montgomery County Land Use</a>: API not available</li>
-        </ul>
-      <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-passenger-rail-stations/explore?location=40.082286%2C-74.972245%2C10.63">Greater PHL Rail stations</a> from DVRPC</li>
-      <li>Other data may be used (not downloaded):</li>
-        <ul>
-            <li><a href="https://www.dvrpc.org/webmaps/TOD/#map">DVRPC's existing TOD index</a>: may have to ask for the raw data by email</li>
             <li><a href="https://www.opendataphilly.org/dataset/walk-score-phila-only">PHL Walk/Transit Score</a>: Free API available</li>
             <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpc-long-range-plan-2045-land-use-vision/explore?location=40.056487%2C-75.245250%2C9.88">DVRPC 2045 Land Use Vision</a>: API not available</li>
         </ul>      
     </ul>
-<li>Folder with cleaned data.</li>
+<li>Folder with cleaned data: future R coding will be based on files here</li>
     <ul>
       <li>Tidycensus tract map with certain variables</li>
       <li>Transit stations with type and symbological marks</li>
+      <li>Parcel data (converted to point data to save energy) within TOD buffers</li>
+      <li>Exploratory analysis results (csv and png)</li>
     </ul>
 <li>Folder (R, py, src, scripts) with initial code to explore the data.</li>
     <ul>
-      <li>R script to explore the Tidycensus</li>
+      <li>R script to clean and explore the data.</li>
     </ul>
+<li>Presentation slides for the Feb 10 Class</li>
 <li>README.md file describing the project and folder organization. (THIS FILE)</li>
 
 </p>

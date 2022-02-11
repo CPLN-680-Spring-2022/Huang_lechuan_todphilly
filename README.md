@@ -31,7 +31,7 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
 <h2><b>Folder Organization</b></h2>
 <p>
 
-<li>Folder [`/raw_data`] with raw data.</li>
+<li>Folder [`/raw_data`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/raw_data) with raw data.</li>
     <ul>
       <li>Tidycensus map (png) and shapefile of the DVRPC area</li>
       <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/greater-philadelphia-2015-land-use/explore?location=39.977361%2C-75.184975%2C10.68">Greater PHL land use 2015</a> from DVRPC (shp and dbf are too large to be uploaded, but I saved them locally). Other Land Use/Parcel data may be used (not downloaded):</li>
@@ -45,18 +45,18 @@ I may narrow my scope to one specific area in Greater Philadelphia (TBD): places
             <li><a href="https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpc-long-range-plan-2045-land-use-vision/explore?location=40.056487%2C-75.245250%2C9.88">DVRPC 2045 Land Use Vision</a>: API not available</li>
         </ul>      
     </ul>
-<li>Folder with [`/cleaned_data`]: future R coding will be based on files here</li>
+<li>Folder with [`/cleaned_data`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/cleaned_data): future R coding will be based on files here</li>
     <ul>
       <li>Tidycensus tract map with certain variables</li>
       <li>Transit stations with type and symbological marks</li>
       <li>Parcel data (converted to point data to save energy) within TOD buffers</li>
       <li>Exploratory analysis results (csv and png)</li>
     </ul>
-<li>Folder [`/scripts`] with initial code to explore the data.</li>
+<li>Folder [`/scripts`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/scripts) with initial code to explore the data.</li>
     <ul>
       <li>R script to clean and explore the data.</li>
     </ul>
-<li>[`/Captsone Presentation.pdf`]: Presentation slides for the Feb 10 Class.</li>
-<li>[`/README.md`] file describing the project and folder organization. (THIS FILE)</li>
+<li>[`/Captsone Presentation.pdf`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Captsone%20Presentation.pdf): Presentation slides for the Feb 10 Class.</li>
+<li>[`/README.md`](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/README.md) file describing the project and folder organization. (THIS FILE)</li>
 
 </p>

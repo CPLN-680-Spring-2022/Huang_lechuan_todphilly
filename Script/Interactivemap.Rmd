@@ -1,0 +1,23 @@
+---
+title: "TOD-tracts"
+author: "Lechuan Huang"
+date: "2/17/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(tigris) # package to download tiger shapefiles from census API
+library(viridis)
+library(mapview)
+
+TODyes <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/TODtracts.shp")
+```
+Here is the map of the selected Tracts that are close to Rail Transit stops in DVRPC.
+
+```{r mapview_emissions}
+mapView(TODyes, zcol = "TotalPp")
+```

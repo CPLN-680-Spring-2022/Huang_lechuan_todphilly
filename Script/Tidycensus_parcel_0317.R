@@ -17,13 +17,23 @@ TODParcels <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_to
 TOD_tract_parcel <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/TODtract_with_parcel_ana.shp")
 Study.sf <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/Tract_map_TOD_0208.shp")
 
+
+#shape_are and shape_len in metres, convert to acres, filter the too small ones.
+TODParcels$shape_arac <- as.numeric(TODParcels$Shape__Are)/4046.86
+
+TODParcels_rea <- filter(TODParcels, Shape__Are > 5)
+
+
+
 #study existing TOD tracts condition
-TOD_parcel_tract <- st_join(TODParcels, TODyes)
+TOD_parcel_tract <- st_join(TODParcels_rea, TODyes)
 
 
 TOD_parcel_tract2 <- TOD_parcel_tract%>%
   group_by(NAME, lu15dev)%>%
-  summarise(count_parcel = n())
+  summarise(count_parcel = n(),
+            area1 = sum(shape_arac<1),
+            area5 = sum(shape_arac>0.99 & shape_arac<5))
 
 TOD_parcel_tract3 <- TOD_parcel_tract2 %>%
   as_tibble()%>%

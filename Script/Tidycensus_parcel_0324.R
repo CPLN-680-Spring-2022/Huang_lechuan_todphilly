@@ -25,6 +25,9 @@ DVRPC_railstops <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechu
 #B25002_001 Total B25002_002 Occupied B25002_003 Vacant
 #B25031_001 MedRent
 
+DVRPC_railstops <- tibble::rowid_to_column(DVRPC_railstops, "ID")%>%
+  st_transform(st_crs(Study.sf))
+
 Buffers <- st_buffer(DVRPC_railstops, 800)
 
 DVRPC_Parcel <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/raw_data/Greater_Philadelphia_2015_Land_Use.shp")%>%
@@ -39,7 +42,7 @@ DVRPC_Parcel <- DVRPC_Parcel%>%
 TOD_parcel2 <- st_filter(st_centroid(DVRPC_Parcel), Buffers, join = st_within)%>%
   st_sf()
 
-st_write(TOD_parcel2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/TOD_800bufer_parcelpoint.shp")
+st_write(TOD_parcel2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/800buffer/TOD_800bufer_parcelpoint.shp")
 
 ggplot() +
   geom_sf(data=st_union(Study.sf)) +
@@ -54,7 +57,7 @@ TOD_parcel_buffer <- st_join(TOD_parcel2, Buffers)
 
 TOD_parcel_buffer2 <- TOD_parcel_buffer%>%
   st_drop_geometry()%>%
-  group_by(station, lu15catn)%>%
+  group_by(ID, lu15catn)%>%
   dplyr::summarise(count_parcel = n())
 
 TOD_parcel_buffer3 <- TOD_parcel_buffer2 %>%
@@ -65,18 +68,18 @@ TOD_parcel_buffer4 <- spread(TOD_parcel_buffer3, key = lu15catn, value = count_p
 #mixeduse
 TOD_parcel_mixedtract <- TOD_parcel_buffer%>%
   st_drop_geometry()%>%
-  group_by(station, mixeduse)%>%
+  group_by(ID, mixeduse)%>%
   dplyr::summarise(count_parcel = n())
 
 TOD_parcel_mixedtract2 <- TOD_parcel_mixedtract %>%
   as_tibble()
 
 TOD_parcel_mixedtract3 <- spread(TOD_parcel_mixedtract2, key = mixeduse, value = count_parcel)%>%
-  dplyr::rename(station.y = station)
+  dplyr::rename(ID.y = ID)
 
 #merge
 parcel_analysis <- cbind(TOD_parcel_buffer4, TOD_parcel_mixedtract3)%>%
-  dplyr::select(-station.y)%>%
+  dplyr::select(-ID.y)%>%
   dplyr::rename(MixedUse_yes = Y,
          MixedUse_no = N)
 
@@ -96,14 +99,18 @@ parcel_analysis <- parcel_analysis%>%
 
 TOD_station_parcel <- merge(DVRPC_railstops, parcel_analysis)
 
-st_write(TOD_station_parcel, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/TODstation_bufferparcel_analysis.shp")
+st_write(TOD_station_parcel, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/800buffer/TODstation_bufferparcel_analysis.shp")
+
+#play with it 
+TOD_station_parcel <- TOD_station_parcel%>%
+  mutate(CtRe = Commpct/Resipct)
 
 #visualization
 ggplot() +
   geom_sf(data=st_union(Study.sf)) +
-  geom_sf(data=TOD_station_parcel, aes(colour = totalpc),
-          show.legend = "point", size = 4) +
-  labs(title="Total parcel numbers of TOD-buffers", 
+  geom_sf(data=DVRPC_TOD, aes(colour = Type_1),
+          show.legend = "point", size = 5) +
+  labs(title="DVRPC's analysis of Station area", 
        subtitle="DVRPC", 
        caption="Figure xx") +
   mapTheme()

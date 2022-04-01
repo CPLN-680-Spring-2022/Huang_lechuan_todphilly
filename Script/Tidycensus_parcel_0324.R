@@ -18,6 +18,8 @@ TODyes <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphi
 DVRPC_TOD <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/raw_data/DVRPC_TOD/TOD_Opportunities.shp")
 DVRPC_railstops <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/Transitstations.shp")
 
+TOD_parcel2 <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/800buffer/TOD_800bufer_parcelpoint.shp")
+TOD_station_parcel<- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/800buffer/TODstation_bufferparcel_analysis.shp")
 #B01001_001 Total Population B11016_001 Housholed
 #B02001_002 White alone, B02001_003 Black, B02001_004 Native, B02001_005 Asian, B03001_003 Hispanic or Latinx
 #B06011_001 Median Income, B05010_001 Poverty Rate, B07013_002 owner housing, B07013_003 renter housing
@@ -33,24 +35,8 @@ Buffers <- st_buffer(DVRPC_railstops, 800)
 DVRPC_Parcel <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/raw_data/Greater_Philadelphia_2015_Land_Use.shp")%>%
   st_transform(st_crs(Study.sf))
 
-sf_use_s2(FALSE)
-
-DVRPC_Parcel <- DVRPC_Parcel%>%
-  s2_rebuild()
-
 #filter parcels within TOD buffers
-TOD_parcel2 <- st_filter(st_centroid(DVRPC_Parcel), Buffers, join = st_within)%>%
-  st_sf()
 
-st_write(TOD_parcel2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/800buffer/TOD_800bufer_parcelpoint.shp")
-
-ggplot() +
-  geom_sf(data=st_union(Study.sf)) +
-  geom_sf(data=TOD_parcel2, aes(fill = lu15catn)) +
-  scale_fill_manual(values = c("#E3E4DB","#9e0142","#d53e4f","#f46d43","#fdae61","#fee08b",
-                               "#e6f598","#abdda4","#66c2a5","#3288bd","#5e4fa2","#B8CC1A"))+
-  labs(caption = "Figure xx") +
-  mapTheme()
 
 #join parcels to buffers
 TOD_parcel_buffer <- st_join(TOD_parcel2, Buffers)
@@ -65,6 +51,20 @@ TOD_parcel_buffer3 <- TOD_parcel_buffer2 %>%
 
 TOD_parcel_buffer4 <- spread(TOD_parcel_buffer3, key = lu15catn, value = count_parcel)
 
+TOD_parcel_buffer5 <- TOD_parcel_buffer%>%
+  st_drop_geometry()%>%
+  group_by(ID, lu15catn)%>%
+  dplyr::summarise(type_area = sum(Shape__Are))
+
+TOD_parcel_buffer6 <- TOD_parcel_buffer5 %>%
+  as_tibble()
+
+TOD_parcel_buffer7 <- spread(TOD_parcel_buffer6, key = lu15catn, value = type_area)%>%
+  dplyr::rename(ID.8 = ID, agr_area = Agriculture, Com_area = Commercial, Indu_area = Industrial,
+                Ins_area = Institutional, Mil_area = Military, Recre_area = Recreation,
+                Resi_area = Residential, Tran_area = Transportation, Under_area = Undeveloped,
+                Util_area = Utility, Water_area = Water, Wood_area = Wooded)
+
 #mixeduse
 TOD_parcel_mixedtract <- TOD_parcel_buffer%>%
   st_drop_geometry()%>%
@@ -75,13 +75,31 @@ TOD_parcel_mixedtract2 <- TOD_parcel_mixedtract %>%
   as_tibble()
 
 TOD_parcel_mixedtract3 <- spread(TOD_parcel_mixedtract2, key = mixeduse, value = count_parcel)%>%
-  dplyr::rename(ID.y = ID)
+  dplyr::rename(ID.3 = ID)
+
+TOD_parcel_mixedtract4 <- TOD_parcel_buffer%>%
+  st_drop_geometry()%>%
+  group_by(ID, mixeduse)%>%
+  dplyr::summarise(type_area = sum(Shape__Are))
+
+TOD_parcel_mixedtract5 <- TOD_parcel_mixedtract4 %>%
+  as_tibble()
+
+TOD_parcel_mixedtract6 <- spread(TOD_parcel_mixedtract5, key = mixeduse, value = type_area)%>%
+  dplyr::rename(Mix_area = Y,
+                nomx_area = N)
 
 #merge
-parcel_analysis <- cbind(TOD_parcel_buffer4, TOD_parcel_mixedtract3)%>%
-  dplyr::select(-ID.y)%>%
-  dplyr::rename(MixedUse_yes = Y,
-         MixedUse_no = N)
+TOD_parcel_buffer8 <- cbind(TOD_parcel_buffer4, TOD_parcel_buffer7)%>%
+  dplyr::select(-ID.8)
+
+TOD_parcel_mixedtract8 <- cbind(TOD_parcel_mixedtract3, TOD_parcel_mixedtract6)%>%
+  dplyr::select(-ID.3)%>%
+  dplyr::rename(ID.7 = ID,
+                MixedUse_yes = Y, MixedUse_no = N)
+
+parcel_analysis <- cbind(TOD_parcel_buffer8, TOD_parcel_mixedtract8)%>%
+  dplyr::select(-ID.7)
 
 parcel_analysis[is.na(parcel_analysis)] = 0
 
@@ -95,7 +113,14 @@ parcel_analysis <- parcel_analysis%>%
          Induspct = (Industrial/totalpc)*100,
          Civilpct = ((Institutional+Recreation+Utility)/totalpc)*100,
          Resipct = (Residential/totalpc)*100,
-         underpct = ((Agriculture + Wooded)/totalpc)*100)
+         underpct = ((Agriculture + Wooded + Undeveloped)/totalpc)*100,
+         Mx_ar_pct = Mix_area/2010000,
+         Tran_ar_pct = Tran_area/2010000,
+         Com_area_pct = Com_area/2010000,
+         Ind_ar_pct = Indu_area/2010000,
+         Civ_ar_pct = (Ins_area+Recre_area+Util_area)/2010000,
+         Res_ar_pct = Resi_area/2010000,
+         under_ar_pct = (agr_area+Under_area+Wood_area)/2010000)
 
 TOD_station_parcel <- merge(DVRPC_railstops, parcel_analysis)
 
@@ -108,7 +133,7 @@ TOD_station_parcel <- TOD_station_parcel%>%
 #visualization
 ggplot() +
   geom_sf(data=st_union(Study.sf)) +
-  geom_sf(data=DVRPC_TOD, aes(colour = Type_1),
+  geom_sf(data=TOD_station_parcel, aes(colour = Mx_ar_pct),
           show.legend = "point", size = 5) +
   labs(title="DVRPC's analysis of Station area", 
        subtitle="DVRPC", 

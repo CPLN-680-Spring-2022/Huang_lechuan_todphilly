@@ -21,7 +21,6 @@ locality <- st_read("https://opendata.arcgis.com/datasets/0af75c94e931476ba0abec
   st_transform(4326)%>%
   filter(dvrpc_reg == "Yes")
 
-
 summary(as.numeric(station_loc$acres[station_loc$mun_type =="Borough"]))
 summary(as.numeric(station_loc$acres[station_loc$mun_type =="Township"]))
 summary(as.numeric(station_loc$acres[station_loc$mun_type =="City"]))
@@ -36,17 +35,19 @@ station_loc <- st_join(station_final, loc, join = st_within, left= TRUE)%>%
   dplyr::select(-mun_type, -acres)
   
 station_l2 <- station_loc[, c("ID", "station", "line", "operator", "type_sym", "type", 
-                "sum_ac", "ac_score", "job_sc", "surp_sc", "em_surp_sc",
+                "ac_score", "job_sc", "surp_sc", "em_surp_sc",
                 "pvt_qn", "MdInm_qn", "not_gen", "loc_sc",
                 "geometry")]
 
-st_write(station_l2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/0410_stations_access_jobs_census_loc.shp")
+station_l2$ac_score[station_l2$ac_score < 5] <- 1 
+
+st_write(station_l2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_access_jobs_census_loc_0411.shp")
 
 ggplot() +
   geom_sf(data=st_union(Study.sf)) +
-  geom_sf(data=station_l2, aes(colour = loc_sc),
+  geom_sf(data=station_l2, aes(colour = not_gen),
           show.legend = "point", size = 5) +
   labs(title="DVRPC's analysis of Station area", 
-       subtitle="Station by municipality level it is located", 
+       subtitle="Station by likelyhood of being gentrified", 
        caption="Figure xx") +
   mapTheme()

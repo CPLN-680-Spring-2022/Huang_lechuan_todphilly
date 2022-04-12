@@ -58,10 +58,10 @@ DVRPC_railstops$freqe[DVRPC_railstops$ID %in% c("217", "229", "234", "238", "277
 DVRPC_railstops$freqe[DVRPC_railstops$line %in% c("Paoli/Thorndale Line", "Northeast Corridor")] <- 2 
 
 station_access <- DVRPC_railstops%>%
-  dplyr::select(-freq)%>%
   mutate(access = capacity * freqe,
          ac_score = ntile(access, 10))
 
+station_access$ac_score[station_access$access == 49.5] <- 1 
 
 #aggregate by hand
 #Trenton
@@ -106,17 +106,20 @@ clean_station <- merge(x=station_access_clea,y=DVRPC_railstops,by="ID",all.x=TRU
   st_as_sf()%>%
   st_transform(4326)
 
+clean_station <- clean_station[, c("ID", "station", "line", "operator", "type_sym", "type", 
+                              "capacity", "freqe", "sum_ac", "ac_score")]
+
+st_write(clean_station, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_access_0411.shp")
+
 #job data
 #see also: https://www.dvrpc.org/Reports/ADR021.pdf
-jobs <- st_read("https://opendata.arcgis.com/datasets/0635910b84204020b1c8474a4732f257_0.geojson")
-
-jobs <- jobs%>%
+jobs <- st_read("https://opendata.arcgis.com/datasets/0635910b84204020b1c8474a4732f257_0.geojson")%>%
   mutate(job35den = emp35/Shape__Area,
-         job_sc = ntile(job30den, 10),
+         job_sc = ntile(job35den, 10),
          pop35den = pop35/Shape__Area,
          jobsurp = emp35 - pop35,
          surp_sc = ntile(jobsurp, 10))%>%
-  dplyr::select(objectid, co_name, mun_name, state, job_sc, emp35, pop35, job30den, pop35den, jobsurp, surp_sc, Shape__Area, geometry)%>%
+  dplyr::select(objectid, co_name, mun_name, state, job_sc, emp35, pop35, job35den, pop35den, jobsurp, surp_sc, Shape__Area, geometry)%>%
   st_transform(4326)
 
 job_join <- jobs%>%
@@ -124,6 +127,10 @@ job_join <- jobs%>%
   mutate(surp_abs = abs(jobsurp),
          em_surp_sc = ntile(surp_abs, 10))%>%
   dplyr::select(job_sc, surp_sc, em_surp_sc)
+
+job_join2 <- jobs%>%
+  mutate(surp_abs = abs(jobsurp),
+         em_surp_sc = ntile(surp_abs, 10))
 
 ggplot() +
   geom_sf(data=job_join, aes(fill = em_surp_sc)) +
@@ -134,7 +141,19 @@ ggplot() +
 
 clean_station_job <- st_join(clean_station, job_join, join = st_within, left= TRUE)
 
+clean_station_job2 <- st_join(clean_station, job_join2, join = st_within, left= TRUE)%>%
+  dplyr::select(-objectid, -state, -"capacity", -"freqe", -"sum_ac", -"ac_score", 
+                -surp_sc, -Shape__Area)
+
+clean_station_job2 <- clean_station_job2[, c("ID", "station", "line", "operator", "type_sym", "type",
+                              "co_name", "mun_name",
+                              "emp35", "job_sc", "job35den", "pop35", "pop35den",
+                              "jobsurp", "surp_abs", "em_surp_sc",
+                              "geometry")]
+
 st_write(clean_station_job, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_with_job_0407.shp")
+
+st_write(clean_station_job2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_job_0411.shp")
 
 #equity
 #protect low income but low poverty rate
@@ -162,14 +181,18 @@ ggplot() +
 
 station_social <- st_join(clean_station_job, social, join = st_within, left= TRUE)
 
+station_social1 <- st_join(clean_station_job, social, join = st_within, left= TRUE)%>%
+  dplyr::select(-"capacity", -"freqe", -"sum_ac", -"ac_score")
+
 station_social_final <- station_social%>%
   dplyr::select(-NAME, -TotalPp, -TotalHH, -rt_hwng, -ownh_rate)%>%
-  mutate(not_gen = ntile(-gp_score, 10))%>%
+  mutate(not_gen = ntile(gp_score/own_hs_qn, 10))%>%
   dplyr::select(-MedIncm, -Pvrty_r, -pvt_rate, -aff_gp, -gp_score, -own_hs_qn)
 
 gentrification <- filter(station_social, MedIncm<25000 & MedIncm>10000)%>% #outlier of college town
-  dplyr::select(station, line, MedIncm, MdInm_qn, pvt_rate, pvt_qn, gp_score)%>%
-  arrange(desc(gp_score))
+  dplyr::select(station, line, MedIncm, MdInm_qn, pvt_rate, pvt_qn, gp_score, own_hs_qn)%>%
+  mutate(not_gen = ntile(gp_score/own_hs_qn, 10))%>%
+  arrange(not_gen)
 
 st_write(gentrification, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/gentrification_stations.shp")
 write_csv(gentrification, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/gentrification_stations.csv")

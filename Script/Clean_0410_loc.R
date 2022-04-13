@@ -13,7 +13,7 @@ census_api_key("3050a770b2aedfa128dd2ccc6ca8b8524fccc775", overwrite = TRUE)
 palette5 <- c("#25CB10", "#5AB60C", "#8FA108",   "#C48C04", "#FA7800")
 
 
-station_final <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_access_jobs_census.shp")
+station_final <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_jobs_census_0412.shp")
 Study.sf <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/Tract_map_TOD_0208.shp")
 DVRPC_TOD <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/raw_data/DVRPC_TOD/TOD_Opportunities.shp")
 
@@ -39,9 +39,7 @@ station_l2 <- station_loc[, c("ID", "station", "line", "operator", "type_sym", "
                 "pvt_qn", "MdInm_qn", "not_gen", "loc_sc",
                 "geometry")]
 
-station_l2$ac_score[station_l2$ac_score < 5] <- 1 
-
-st_write(station_l2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_access_jobs_census_loc_0411.shp")
+st_write(station_l2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_access_jobs_census_loc_0412.shp")
 
 ggplot() +
   geom_sf(data=st_union(Study.sf)) +

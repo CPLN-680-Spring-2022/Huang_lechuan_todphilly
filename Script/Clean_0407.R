@@ -102,14 +102,14 @@ station_access_clea$sum_ac[station_access_clea$ID %in% c("272")] <- 1800 + (25*5
 station_access_clea$sum_ac[station_access_clea$ID %in% c("307")] <- 2785 + (6*50)
 
 clean_station <- merge(x=station_access_clea,y=DVRPC_railstops,by="ID",all.x=TRUE)%>%
-  mutate(ac_score = ntile(sum_ac, 10))%>%
+  mutate(ac_score = as.numeric(cut(clean_station$sum_ac, 10)))%>%
   st_as_sf()%>%
   st_transform(4326)
 
 clean_station <- clean_station[, c("ID", "station", "line", "operator", "type_sym", "type", 
                               "capacity", "freqe", "sum_ac", "ac_score")]
 
-st_write(clean_station, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_access_0411.shp")
+st_write(clean_station, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_access_0412.shp")
 
 #job data
 #see also: https://www.dvrpc.org/Reports/ADR021.pdf
@@ -153,7 +153,7 @@ clean_station_job2 <- clean_station_job2[, c("ID", "station", "line", "operator"
 
 st_write(clean_station_job, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_with_job_0407.shp")
 
-st_write(clean_station_job2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_job_0411.shp")
+st_write(clean_station_job2, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_job_0412.shp")
 
 #equity
 #protect low income but low poverty rate
@@ -207,4 +207,4 @@ ggplot() +
        caption="Figure xx") +
   mapTheme()
 
-st_write(station_social_final, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_access_jobs_census.shp")
+st_write(station_social_final, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/stations_jobs_census_0412.shp")

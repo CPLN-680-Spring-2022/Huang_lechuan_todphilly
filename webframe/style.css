@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: flex;
+    max-height: 100%;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top {
+    padding: 1rem;
+    padding-left: 2rem;
+    font-size: 28pt;
+    background-color: #77c9ed;
+    color: #eee;
+}
+
+.main {
+    flex-direction: row;
+    display: flex;
+    height: 100%;
+}
+
+.map {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.content {
+    flex-direction: column;
+    width: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #bbe2f2;
+    color: #eee;
+}
+
+.story {
+    width: 100%;
+    padding: 1rem;
+}
+
+.slide-title{
+  max-height: 1rem;
+}
+  
+.slide-nav-select {
+    min-width: 0;
+}

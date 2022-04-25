@@ -1,4 +1,4 @@
-function initMap() {
+/*function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
     center: { lat: 39.9526, lng: -75.1652 },
@@ -9,138 +9,85 @@ function initMap() {
 }
 
 window.initMap = initMap;
+*/
+const map = L.map('map').setView([39.9526, -75.1652], 13);
 
-let p1;
-let showpoints;
-fetch('data/data.geojson')
-  .then(resp => resp.json())
-  .then(data => {
-    showpoints = data;
-    p1 = L.geoJSON(data).
-    bindTooltip(l => l.feature.properties.Locations).
-    addTo(map);
-    showCurrentSlide();
-  });
+L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  ext: 'png',
+}).addTo(map);
 
-  /* Slides */
+// let p1;
+// let showpoints;
+// fetch('station_final_0421_2.geojson')
+//   .then(resp => resp.json())
+//   .then(data => {
+//     showpoints = data;
+//     p1 = L.geoJSON(data).
+//     bindTooltip(l => l.features.properties.station).
+//     addTo(map);
+//   });
 
-let currentSlideIndex = 0;
 
-const slideTitleDiv = document.querySelector('.slide-title');
-const slideContentDiv = document.querySelector('.slide-content');
-const slidePrevButton = document.querySelector('#prev-slide');
-const slideNextButton = document.querySelector('#next-slide');
-const slideJumpSelect = document.querySelector('#jump-to-slide');
 
-function updateMap(collection) {
-  layerGroup.clearLayers();
-  const geoJsonLayer = L.geoJSON(collection, { pointToLayer: (p, latlng) => L.marker(latlng) })
-    .bindTooltip(l => l.feature.properties.Locations)
-    .addTo(layerGroup);
-
-  return geoJsonLayer;
-}
-
-function makeEraCollection(era) {
-  return {
-    type: 'FeatureCollection',
-    features: lifeCollection.features.filter(f => f.properties.era === era),
-  };
-}
-
-function showSlide(slide) {
-  slideTitleDiv.innerHTML = `<h3>${slide.properties.Location}</h3>`;
-  slideContentDiv.innerHTML = `<p>${slide.properties.date}</p><br><p>${slide.properties.Event}</p>`
-  // slideContentDiv.innerHTML = converter.makeHtml(slide.content);
-
-  map.eachLayer(marker => {
-    if (marker.feature && marker.feature.properties.Order === slide.properties.Order) {
-      // Center the map on the marker
-      map.flyTo(marker.getLatLng(), 12 /* <-- Or some zoom level besides 12 */);
-  
-      // Open the marker popup
-      marker
-        .bindPopup(`<h3>${slide.properties.Location}</h3><br><img src="data/${slide.properties.File}" width=220>`)
-        .openPopup();
-    } else {
-      marker.closePopup();
+// Lines
+fetch('https://arcgis.dvrpc.org/portal/rest/services/Transportation/PassengerRail/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson')
+.then(function (response) {
+  return response.json();
+})
+.then(function (dataline) {
+  L.geoJSON(dataline, {
+    style: function (feature) {
+        return {color: '#fdbb84',
+                weight: 5,
+                opacity: 0.7};
     }
-  });
+  }).addTo(map);
+});
 
-  /*const collection = slide.era ? makeEraCollection(slide.era) : lifeCollection;
-  const layer = updateMap(collection);
+// Stations
+styleOptionsstation = {
+  fillColor: "#5a8999",
+  radius: 10,
+  weight: 0,
+  opacity: 1,
+  fillOpacity: 1
+};
 
-  function handleFlyEnd() {
-    if (slide.showpopups) {
-      layer.eachLayer(l => {
-        l.bindTooltip(l.feature.properties.label, { permanent: true });
-        l.openTooltip();
-      });
+fetch('station_final_score.geojson')
+.then(function (response) {
+  return response.json();
+})
+.then(function (datascore) {
+  L.geoJSON(datascore/*, { Color TBD
+    pointToLayer: function(feature, latlng) {
+        return L.circleMarker(latlng, styleOptionsstation);
     }
-    map.removeEventListener('moveend', handleFlyEnd);
-  }
+  }*/).bindPopup(function (layer) {
+    return layer.feature.properties.station + ": " + layer.feature.properties.sc_aph;
+  }).addTo(map);
+});
 
-  map.addEventListener('moveend', handleFlyEnd);
-  if (slide.bounds) {
-    map.flyToBounds(slide.bounds);
-  } else if (slide.era) {
-    map.flyToBounds(layer.getBounds());
-  }*/
-}
+// Parcels
+styleOptionsparcel = {
+  fillColor: "#4a6157",
+  radius: 5,
+  weight: 0,
+  opacity: 1,
+  fillOpacity: 0.9
+};
 
-function showCurrentSlide() {
-  const slide = showpoints.features[currentSlideIndex];
-  showSlide(slide);
-}
 
-function goNextSlide() {
-  currentSlideIndex++;
-
-  if (currentSlideIndex === 23) {
-    currentSlideIndex = 0;
-  }
-
-  showCurrentSlide();
-}
-
-function goPrevSlide() {
-  currentSlideIndex--;
-
-  if (currentSlideIndex < 0) {
-    currentSlideIndex = slides.length - 1;
-  }
-
-  showCurrentSlide();
-}
-
-function jumpToSlide() {
-  currentSlideIndex = parseInt(slideJumpSelect.value, 10);
-  showCurrentSlide();
-}
-
-function initSlideSelect() {
-  slideJumpSelect.innerHTML = '';
-  for (const [index, slide] of slides.entries()) {
-    const option = document.createElement('option');
-    option.value = index;
-    option.innerHTML = slide.title;
-    slideJumpSelect.appendChild(option);
-  }
-}
-
-function loadLifeData() {
-  fetch('data/data.geojson')
-    .then(resp => resp.json())
-    .then(data => {
-      lifeCollection = data;
-      showCurrentSlide();
-    });
-}
-
-slidePrevButton.addEventListener('click', goPrevSlide);
-slideNextButton.addEventListener('click', goNextSlide);
-slideJumpSelect.addEventListener('click', jumpToSlide);
-
-/*initSlideSelect();
-showCurrentSlide();
-loadLifeData();*/
+fetch('parcel_data.geojson')
+.then(function (response) {
+  return response.json();
+})
+.then(function (parcel) {
+  L.geoJSON(parcel, {
+    pointToLayer: function(feature, latlng) {
+        return L.circleMarker(latlng, styleOptionsparcel);
+    }
+  }).bindPopup(function (layer) {
+    return layer.feature.properties.lu15subn;
+  }).addTo(map);
+});

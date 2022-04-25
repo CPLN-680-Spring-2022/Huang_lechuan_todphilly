@@ -5,6 +5,8 @@ library(dplyr)
 library(rgdal)
 library(sf)
 library(raster)
+library(geojsonsf)
+library(geojsonio)
 
 root.dir = "https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/DATA/"
 source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
@@ -37,7 +39,7 @@ test <- test[, c("ID", "station", "line", "operator", "type_sym", "type",
 st_write(test, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/TOD_stationlist_0414.shp")
 
 #siting categorization
-TODParcels <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/TOD_parcels_point.shp")
+TODParcels <- st_read("C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/Parcel_analysis/TOD_parcels_point.shp")
 
 summary(as.factor(TODParcels$lu15catn))
 
@@ -98,6 +100,9 @@ station_vacant <- merge(test, parcels_ana, by = "ID", all = TRUE)%>%
 station_vacant[is.na(station_vacant)] = 0
 
 st_write(station_vacant, "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/cleaned_data/final_mat/station_largeTOD_500m.shp")
+
+geojson_write(Redev, 
+              file = "C:/Users/mnxan/OneDrive/Documents/GitHub/Huang_lechuan_todphilly/webframe/parcel_data.geojson")
 
 #difference
 TOD500 <- station_vacant%>%

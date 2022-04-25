@@ -84,7 +84,11 @@ ggplot()+
   geom_sf(data = st_union(Study.sf))+
   geom_sf(data=TOD_tract_parcel,
           aes(fill = q5(undrpct))) +
-  scale_fill_manual(values = c("#f0f9e8","#bae4bc","#7bccc4","#43a2ca","#0868ac"),
+  scale_fill_manual(values = c("#f0f9e8",
+            "#bae4bc",
+            "#7bccc4",
+            "#43a2ca",
+            "#0868ac"),
                     labels = qBr(TOD_tract_parcel, "undrpct"),
                     name = "undrpct \n(Quintile Breaks)") +
   labs(title = "Underused parcels proportions among TOD tracts", subtitle = "E.g.: Agriculture, Forest, undeveloped") +

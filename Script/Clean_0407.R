@@ -49,7 +49,11 @@ DVRPC_railstops <- DVRPC_railstops%>%
 
 
 #BSL Express
-DVRPC_railstops$freqe[DVRPC_railstops$ID %in% c("307", "225", "289","230", "274","3","314","200")] <- 16
+DVRPC_railstops$freqe[DVRPC_railstops$ID %in% c("307", "225", "289",
+            "230", "274",
+            "3",
+            "314",
+            "200")] <- 16
 #BSL South local & Chinatown
 DVRPC_railstops$freqe[DVRPC_railstops$ID %in% c("318", "196", "227", "193", "228", "9", "231", "283")] <- 8
 #BSL North Local

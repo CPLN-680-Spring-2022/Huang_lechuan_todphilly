@@ -88,7 +88,9 @@ ggplot() +
   geom_sf(data=DVRPC_railstops, 
           aes(colour = type_sym), 
           show.legend = "point", size= 2) +
-  scale_colour_manual(values = c("#ff8f1c", "#007dc3", "#781d7e", "#005DAA", "#EF3E42","#00A5E3", "#EF3E42", "#0255a1","#5d9731")) +
+  scale_colour_manual(values = c("#ff8f1c", "#007dc3", "#781d7e", "#005DAA", "#EF3E42",
+            "#00A5E3", "#EF3E42", "#0255a1",
+            "#5d9731")) +
   labs(title="Rail Stops in DVRPC", 
        subtitle="Philadelphia, PA", 
        caption="Figure xx") +
@@ -126,7 +128,11 @@ ggplot(Vacantlots)+
   geom_sf(data = st_union(Vacantlots))+
   geom_sf(aes(fill = q5(pct_vacant))) +
   geom_sf(data = unionbuffer, fill = "transparent", color = "red")+
-  scale_fill_manual(values = c("#f0f9e8","#bae4bc","#7bccc4","#43a2ca","#0868ac"),
+  scale_fill_manual(values = c("#f0f9e8",
+            "#bae4bc",
+            "#7bccc4",
+            "#43a2ca",
+            "#0868ac"),
                     labels = qBr(Vacantlots, "pct_vacant"),
                     name = "pct_vacant\n(Quintile Breaks)") +
   labs(title = "Percentage of Vacant lot", subtitle = "DVRPC") +

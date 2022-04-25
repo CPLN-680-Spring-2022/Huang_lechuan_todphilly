@@ -1,6 +1,7 @@
 {"type":"FeatureCollection",
 "features":[{"type":"Feature",
-    "properties":{"ID":219,
+    "properties":{
+            "ID":219,
         "station":"13th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -22,10 +23,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Center City East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1614365,39.9521241]}},
 {"type":"Feature",
-    "properties":{"ID":274,
+    "properties":{
+            "ID":274,
         "station":"Spring Garden",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -47,10 +50,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Spring Garden",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1614208,39.9624178]}},
 {"type":"Feature",
-    "properties":{"ID":221,
+    "properties":{
+            "ID":221,
         "station":"11th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -72,11 +77,13 @@
         "co_name":"Philadelphia",
         "mun_name":"Washington Square West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.158258,39.9516415]}},
 {"type":"Feature",
-    "properties":{"ID":314,
-        "station":"City Hall",
+    "properties":{
+            "ID":314,
+        "station":"City Hall & 15th St & Suburban",
         "line":"Broad Street Line",
         "operator":"SEPTA",
         "type_sym":"BSL",
@@ -97,10 +104,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Center City East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1641417,39.9524594]}},
 {"type":"Feature",
-    "properties":{"ID":200,
+    "properties":{
+            "ID":200,
         "station":"Walnut-Locust",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -122,10 +131,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Washington Square West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1643904,39.9487933]}},
 {"type":"Feature",
-    "properties":{"ID":3,
+    "properties":{
+            "ID":3,
         "station":"Race-Vine",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -147,10 +158,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Center City East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1626007,39.9570074]}},
 {"type":"Feature",
-    "properties":{"ID":296,
+    "properties":{
+            "ID":296,
         "station":"8th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -172,10 +185,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Old City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1535614,39.9510487]}},
 {"type":"Feature",
-    "properties":{"ID":37,
+    "properties":{
+            "ID":37,
         "station":"9th-10th & Locust Street",
         "line":"PATCO",
         "operator":"PATCO",
@@ -197,10 +212,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Washington Square West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1568018,39.9472141]}},
 {"type":"Feature",
-    "properties":{"ID":283,
+    "properties":{
+            "ID":283,
         "station":"Chinatown",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -222,10 +239,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Old City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1530193,39.9555301]}},
 {"type":"Feature",
-    "properties":{"ID":315,
+    "properties":{
+            "ID":315,
         "station":"5th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -247,10 +266,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Old City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1489489,39.9504876]}},
 {"type":"Feature",
-    "properties":{"ID":102,
+    "properties":{
+            "ID":102,
         "station":"12th-13th & Locust Street",
         "line":"PATCO",
         "operator":"PATCO",
@@ -272,10 +293,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Washington Square West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1614769,39.9477102]}},
 {"type":"Feature",
-    "properties":{"ID":2,
+    "properties":{
+            "ID":2,
         "station":"34th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -297,10 +320,12 @@
         "co_name":"Philadelphia",
         "mun_name":"University City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1914804,39.9558599]}},
 {"type":"Feature",
-    "properties":{"ID":167,
+    "properties":{
+            "ID":167,
         "station":"West Trenton",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -322,10 +347,12 @@
         "co_name":"Mercer",
         "mun_name":"Ewing Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8154937,40.2573168]}},
 {"type":"Feature",
-    "properties":{"ID":175,
+    "properties":{
+            "ID":175,
         "station":"15th-16th & Locust Street",
         "line":"PATCO",
         "operator":"PATCO",
@@ -347,10 +374,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Rittenhouse",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1670116,39.9483796]}},
 {"type":"Feature",
-    "properties":{"ID":194,
+    "properties":{
+            "ID":194,
         "station":"2nd Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -372,10 +401,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Old City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1436651,39.9498001]}},
 {"type":"Feature",
-    "properties":{"ID":50,
+    "properties":{
+            "ID":50,
         "station":"Cooper Street/Rutgers University",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -397,10 +428,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1247365,39.947653]}},
 {"type":"Feature",
-    "properties":{"ID":152,
+    "properties":{
+            "ID":152,
         "station":"City Hall",
         "line":"PATCO",
         "operator":"PATCO",
@@ -422,10 +455,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.121006,39.9456608]}},
 {"type":"Feature",
-    "properties":{"ID":288,
+    "properties":{
+            "ID":288,
         "station":"Susquehanna-Dauphin",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -447,10 +482,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Stanton",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1560405,39.9870842]}},
 {"type":"Feature",
-    "properties":{"ID":226,
+    "properties":{
+            "ID":226,
         "station":"Girard",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -472,10 +509,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Fishtown - Lower Kensington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1362021,39.9689228]}},
 {"type":"Feature",
-    "properties":{"ID":251,
+    "properties":{
+            "ID":251,
         "station":"Aquarium",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -497,10 +536,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1287356,39.9456365]}},
 {"type":"Feature",
-    "properties":{"ID":105,
+    "properties":{
+            "ID":105,
         "station":"Temple University",
         "line":"SEPTA Main Line",
         "operator":"SEPTA",
@@ -522,10 +563,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Hartranft",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1494335,39.9816588]}},
 {"type":"Feature",
-    "properties":{"ID":217,
+    "properties":{
+            "ID":217,
         "station":"Fairmount",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -547,10 +590,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Spring Garden",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1604148,39.9670262]}},
 {"type":"Feature",
-    "properties":{"ID":7,
+    "properties":{
+            "ID":7,
         "station":"Princeton",
         "line":"Northeast Corridor",
         "operator":"NJ Transit",
@@ -572,10 +617,12 @@
         "co_name":"Mercer",
         "mun_name":"Princeton",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.6587906,40.3420483]}},
 {"type":"Feature",
-    "properties":{"ID":234,
+    "properties":{
+            "ID":234,
         "station":"Cecil B. Moore",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -597,10 +644,12 @@
         "co_name":"Philadelphia",
         "mun_name":"North Central",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1578663,39.9787108]}},
 {"type":"Feature",
-    "properties":{"ID":9,
+    "properties":{
+            "ID":9,
         "station":"NRG",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -622,10 +671,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Stadium District",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.17319,39.9053575]}},
 {"type":"Feature",
-    "properties":{"ID":220,
+    "properties":{
+            "ID":220,
         "station":"Spring Garden",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -647,10 +698,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Northern Liberties",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1403967,39.9605421]}},
 {"type":"Feature",
-    "properties":{"ID":230,
+    "properties":{
+            "ID":230,
         "station":"Girard",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -672,11 +725,13 @@
         "co_name":"Philadelphia",
         "mun_name":"North Central",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1594457,39.9714655]}},
 {"type":"Feature",
-    "properties":{"ID":49,
-        "station":"Broadway",
+    "properties":{
+            "ID":49,
+        "station":"Broadway & Walter Transportation Center",
         "line":"PATCO",
         "operator":"PATCO",
         "type_sym":"PATCO",
@@ -697,10 +752,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1198274,39.9431121]}},
 {"type":"Feature",
-    "properties":{"ID":107,
+    "properties":{
+            "ID":107,
         "station":"Eastwick",
         "line":"Airport Line",
         "operator":"SEPTA",
@@ -722,10 +779,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Eastwick",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2449554,39.8916901]}},
 {"type":"Feature",
-    "properties":{"ID":77,
+    "properties":{
+            "ID":77,
         "station":"University City",
         "line":"Glenside Combined",
         "operator":"SEPTA",
@@ -747,10 +806,12 @@
         "co_name":"Philadelphia",
         "mun_name":"University City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1903273,39.9478371]}},
 {"type":"Feature",
-    "properties":{"ID":318,
+    "properties":{
+            "ID":318,
         "station":"Lombard-South",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -772,10 +833,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Washington Square West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1654005,39.9441473]}},
 {"type":"Feature",
-    "properties":{"ID":273,
+    "properties":{
+            "ID":273,
         "station":"40th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -797,10 +860,12 @@
         "co_name":"Philadelphia",
         "mun_name":"West Powelton",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2019625,39.9571534]}},
 {"type":"Feature",
-    "properties":{"ID":183,
+    "properties":{
+            "ID":183,
         "station":"Entertainment Center",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -822,10 +887,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1284937,39.9408822]}},
 {"type":"Feature",
-    "properties":{"ID":233,
+    "properties":{
+            "ID":233,
         "station":"30th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -847,10 +914,12 @@
         "co_name":"Philadelphia",
         "mun_name":"University City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.183277,39.954837]}},
 {"type":"Feature",
-    "properties":{"ID":235,
+    "properties":{
+            "ID":235,
         "station":"North Broad",
         "line":"SEPTA Main Line",
         "operator":"SEPTA",
@@ -872,10 +941,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Hartranft",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1539195,39.9922512]}},
 {"type":"Feature",
-    "properties":{"ID":31,
+    "properties":{
+            "ID":31,
         "station":"Trenton Transit Center",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -897,10 +968,12 @@
         "co_name":"Mercer",
         "mun_name":"Trenton City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.755122,40.2183613]}},
 {"type":"Feature",
-    "properties":{"ID":289,
+    "properties":{
+            "ID":289,
         "station":"Erie",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -922,10 +995,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Franklinville",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1512006,40.0092645]}},
 {"type":"Feature",
-    "properties":{"ID":275,
+    "properties":{
+            "ID":275,
         "station":"46th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -947,10 +1022,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mill Creek",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2140078,39.9586666]}},
 {"type":"Feature",
-    "properties":{"ID":277,
+    "properties":{
+            "ID":277,
         "station":"North Philadelphia",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -972,10 +1049,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Hartranft",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.154513,39.99411]}},
 {"type":"Feature",
-    "properties":{"ID":290,
+    "properties":{
+            "ID":290,
         "station":"Haverford",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -997,10 +1076,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.315323,40.0100393]}},
 {"type":"Feature",
-    "properties":{"ID":257,
+    "properties":{
+            "ID":257,
         "station":"Wayne Junction",
         "line":"SEPTA Main Line",
         "operator":"SEPTA",
@@ -1022,10 +1103,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germantown, Southwest",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1600417,40.0225081]}},
 {"type":"Feature",
-    "properties":{"ID":271,
+    "properties":{
+            "ID":271,
         "station":"Ferry Avenue",
         "line":"PATCO",
         "operator":"PATCO",
@@ -1047,10 +1130,12 @@
         "co_name":"Camden",
         "mun_name":"Camden City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0916698,39.9226853]}},
 {"type":"Feature",
-    "properties":{"ID":309,
+    "properties":{
+            "ID":309,
         "station":"Hunting Park",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1072,10 +1157,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Hunting Park",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1492977,40.0179678]}},
 {"type":"Feature",
-    "properties":{"ID":5,
+    "properties":{
+            "ID":5,
         "station":"York-Dauphin",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -1097,10 +1184,12 @@
         "co_name":"Philadelphia",
         "mun_name":"East Kensington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1320293,39.9854455]}},
 {"type":"Feature",
-    "properties":{"ID":53,
+    "properties":{
+            "ID":53,
         "station":"Wynnefield Avenue",
         "line":"Cynwyd Line",
         "operator":"SEPTA",
@@ -1122,10 +1211,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Wynnefield",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2256715,39.9901519]}},
 {"type":"Feature",
-    "properties":{"ID":228,
+    "properties":{
+            "ID":228,
         "station":"Oregon",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1147,10 +1238,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Lower Moyamensing",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1710885,39.916805]}},
 {"type":"Feature",
-    "properties":{"ID":307,
+    "properties":{
+            "ID":307,
         "station":"Fern Rock Transportation Center",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1172,10 +1265,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Fern Rock",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1368236,40.0418299]}},
 {"type":"Feature",
-    "properties":{"ID":196,
+    "properties":{
+            "ID":196,
         "station":"Ellsworth-Federal",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1197,10 +1292,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Passyunk Square",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1671275,39.9362021]}},
 {"type":"Feature",
-    "properties":{"ID":164,
+    "properties":{
+            "ID":164,
         "station":"30th Street Station",
         "line":"SEPTA Main Line",
         "operator":"SEPTA",
@@ -1222,10 +1319,12 @@
         "co_name":"Philadelphia",
         "mun_name":"University City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1822544,39.9566448]}},
 {"type":"Feature",
-    "properties":{"ID":193,
+    "properties":{
+            "ID":193,
         "station":"Snyder",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1247,10 +1346,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Newbold",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1696942,39.9243903]}},
 {"type":"Feature",
-    "properties":{"ID":255,
+    "properties":{
+            "ID":255,
         "station":"Chester Transportation Center",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -1272,10 +1373,12 @@
         "co_name":"Delaware",
         "mun_name":"Chester City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3600691,39.8494803]}},
 {"type":"Feature",
-    "properties":{"ID":310,
+    "properties":{
+            "ID":310,
         "station":"Hughes Park",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -1297,10 +1400,12 @@
         "co_name":"Montgomery",
         "mun_name":"Upper Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.348904,40.0812392]}},
 {"type":"Feature",
-    "properties":{"ID":238,
+    "properties":{
+            "ID":238,
         "station":"Allegheny",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1322,10 +1427,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Franklinville",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1528738,40.0015995]}},
 {"type":"Feature",
-    "properties":{"ID":248,
+    "properties":{
+            "ID":248,
         "station":"Olive Street",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1347,10 +1454,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3910813,39.918153]}},
 {"type":"Feature",
-    "properties":{"ID":267,
+    "properties":{
+            "ID":267,
         "station":"Orange Street",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1372,10 +1481,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3930103,39.9184205]}},
 {"type":"Feature",
-    "properties":{"ID":6,
+    "properties":{
+            "ID":6,
         "station":"63rd Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -1397,10 +1508,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Haddington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2466917,39.9627117]}},
 {"type":"Feature",
-    "properties":{"ID":119,
+    "properties":{
+            "ID":119,
         "station":"Overbrook",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -1422,10 +1535,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Overbrook",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2498431,39.9898841]}},
 {"type":"Feature",
-    "properties":{"ID":132,
+    "properties":{
+            "ID":132,
         "station":"Bryn Mawr",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -1447,10 +1562,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3158782,40.0219106]}},
 {"type":"Feature",
-    "properties":{"ID":227,
+    "properties":{
+            "ID":227,
         "station":"Tasker-Morris",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1472,10 +1589,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Newbold",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1685065,39.9298566]}},
 {"type":"Feature",
-    "properties":{"ID":302,
+    "properties":{
+            "ID":302,
         "station":"Huntingdon",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -1497,10 +1616,12 @@
         "co_name":"Philadelphia",
         "mun_name":"East Kensington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1274183,39.9887951]}},
 {"type":"Feature",
-    "properties":{"ID":240,
+    "properties":{
+            "ID":240,
         "station":"52nd Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -1522,10 +1643,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Haddington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2248799,39.9599975]}},
 {"type":"Feature",
-    "properties":{"ID":87,
+    "properties":{
+            "ID":87,
         "station":"Wissahickon Transportation Center",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -1547,10 +1670,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Wissahickon",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2101994,40.0165623]}},
 {"type":"Feature",
-    "properties":{"ID":313,
+    "properties":{
+            "ID":313,
         "station":"Wyoming",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1572,10 +1697,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Logan",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1478556,40.0245623]}},
 {"type":"Feature",
-    "properties":{"ID":42,
+    "properties":{
+            "ID":42,
         "station":"Jackson Street",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1597,10 +1724,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3894481,39.9179266]}},
 {"type":"Feature",
-    "properties":{"ID":250,
+    "properties":{
+            "ID":250,
         "station":"Roebling",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -1622,10 +1751,12 @@
         "co_name":"Burlington",
         "mun_name":"Florence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.7702552,40.1169428]}},
 {"type":"Feature",
-    "properties":{"ID":27,
+    "properties":{
+            "ID":27,
         "station":"Veterans Square",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1647,10 +1778,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3920513,39.9182846]}},
 {"type":"Feature",
-    "properties":{"ID":41,
+    "properties":{
+            "ID":41,
         "station":"Cass Street",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -1672,10 +1805,12 @@
         "co_name":"Mercer",
         "mun_name":"Trenton City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.7543126,40.2054264]}},
 {"type":"Feature",
-    "properties":{"ID":4,
+    "properties":{
+            "ID":4,
         "station":"69th Street Transportation Center",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -1697,10 +1832,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2592801,39.9626283]}},
 {"type":"Feature",
-    "properties":{"ID":151,
+    "properties":{
+            "ID":151,
         "station":"Manayunk",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -1722,10 +1859,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Manayunk",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2249181,40.0267715]}},
 {"type":"Feature",
-    "properties":{"ID":225,
+    "properties":{
+            "ID":225,
         "station":"Olney Transportation Center",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -1747,10 +1886,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Logan",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1446821,40.0390697]}},
 {"type":"Feature",
-    "properties":{"ID":1,
+    "properties":{
+            "ID":1,
         "station":"Gulph Mills",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -1772,10 +1913,12 @@
         "co_name":"Montgomery",
         "mun_name":"Upper Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3424862,40.0711475]}},
 {"type":"Feature",
-    "properties":{"ID":71,
+    "properties":{
+            "ID":71,
         "station":"Hamilton Avenue",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -1797,10 +1940,12 @@
         "co_name":"Mercer",
         "mun_name":"Trenton City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.7558068,40.211961]}},
 {"type":"Feature",
-    "properties":{"ID":316,
+    "properties":{
+            "ID":316,
         "station":"Providence Road",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1822,10 +1967,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3807186,39.9167202]}},
 {"type":"Feature",
-    "properties":{"ID":181,
+    "properties":{
+            "ID":181,
         "station":"Chelten Avenue",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -1847,10 +1994,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germantown, West Central",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.181143,40.0299803]}},
 {"type":"Feature",
-    "properties":{"ID":278,
+    "properties":{
+            "ID":278,
         "station":"Ardmore Avenue",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -1872,10 +2021,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.309488,39.999971]}},
 {"type":"Feature",
-    "properties":{"ID":236,
+    "properties":{
+            "ID":236,
         "station":"Parkview",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -1897,10 +2048,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2742179,39.9686926]}},
 {"type":"Feature",
-    "properties":{"ID":189,
+    "properties":{
+            "ID":189,
         "station":"Monroe Street",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1922,10 +2075,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3876015,39.9176672]}},
 {"type":"Feature",
-    "properties":{"ID":113,
+    "properties":{
+            "ID":113,
         "station":"30th Street Station",
         "line":"Atlantic City Line",
         "operator":"NJ Transit",
@@ -1947,10 +2102,12 @@
         "co_name":"Philadelphia",
         "mun_name":"University City",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1822544,39.9566448]}},
 {"type":"Feature",
-    "properties":{"ID":117,
+    "properties":{
+            "ID":117,
         "station":"Manchester Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -1972,10 +2129,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3828503,39.9170168]}},
 {"type":"Feature",
-    "properties":{"ID":98,
+    "properties":{
+            "ID":98,
         "station":"Burlington Town Centre",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -1997,10 +2156,12 @@
         "co_name":"Burlington",
         "mun_name":"Burlington City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8594258,40.0773378]}},
 {"type":"Feature",
-    "properties":{"ID":303,
+    "properties":{
+            "ID":303,
         "station":"Somerset",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2022,10 +2183,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Upper Kensington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1222738,39.9916237]}},
 {"type":"Feature",
-    "properties":{"ID":104,
+    "properties":{
+            "ID":104,
         "station":"Edgmont Street",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -2047,10 +2210,12 @@
         "co_name":"Delaware",
         "mun_name":"Media Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.385645,39.9173954]}},
 {"type":"Feature",
-    "properties":{"ID":144,
+    "properties":{
+            "ID":144,
         "station":"Norristown Transportation Center",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -2072,10 +2237,12 @@
         "co_name":"Montgomery",
         "mun_name":"Norristown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3440959,40.1126951]}},
 {"type":"Feature",
-    "properties":{"ID":223,
+    "properties":{
+            "ID":223,
         "station":"56th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2097,10 +2264,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Haddington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2327992,39.9609897]}},
 {"type":"Feature",
-    "properties":{"ID":285,
+    "properties":{
+            "ID":285,
         "station":"Township Line Road",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -2122,10 +2291,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2815776,39.9747684]}},
 {"type":"Feature",
-    "properties":{"ID":304,
+    "properties":{
+            "ID":304,
         "station":"60th Street",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2147,10 +2318,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Haddington",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2407096,39.9619704]}},
 {"type":"Feature",
-    "properties":{"ID":261,
+    "properties":{
+            "ID":261,
         "station":"Drexel Park",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -2172,10 +2345,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2870199,39.9497399]}},
 {"type":"Feature",
-    "properties":{"ID":148,
+    "properties":{
+            "ID":148,
         "station":"St. Martins",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2197,10 +2372,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2045807,40.065781]}},
 {"type":"Feature",
-    "properties":{"ID":266,
+    "properties":{
+            "ID":266,
         "station":"Cinnaminson",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -2222,10 +2399,12 @@
         "co_name":"Burlington",
         "mun_name":"Cinnaminson Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9999751,40.0166172]}},
 {"type":"Feature",
-    "properties":{"ID":272,
+    "properties":{
+            "ID":272,
         "station":"Frankford Transportation Center",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2247,10 +2426,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Frankford",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0780646,40.022916]}},
 {"type":"Feature",
-    "properties":{"ID":109,
+    "properties":{
+            "ID":109,
         "station":"Mount Airy",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -2272,10 +2453,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1910746,40.0652758]}},
 {"type":"Feature",
-    "properties":{"ID":229,
+    "properties":{
+            "ID":229,
         "station":"Logan",
         "line":"Broad Street Line",
         "operator":"SEPTA",
@@ -2297,10 +2480,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Logan",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1466854,40.0299127]}},
 {"type":"Feature",
-    "properties":{"ID":136,
+    "properties":{
+            "ID":136,
         "station":"Willow Grove",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -2322,10 +2507,12 @@
         "co_name":"Montgomery",
         "mun_name":"Upper Moreland Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1143707,40.1436933]}},
 {"type":"Feature",
-    "properties":{"ID":169,
+    "properties":{
+            "ID":169,
         "station":"Gravers Lane",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -2347,10 +2534,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2018378,40.0774748]}},
 {"type":"Feature",
-    "properties":{"ID":172,
+    "properties":{
+            "ID":172,
         "station":"Chestnut Hill East",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -2372,10 +2561,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2073275,40.0810415]}},
 {"type":"Feature",
-    "properties":{"ID":207,
+    "properties":{
+            "ID":207,
         "station":"Strafford",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -2397,10 +2588,12 @@
         "co_name":"Chester",
         "mun_name":"Tredyffrin Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4037376,40.0497125]}},
 {"type":"Feature",
-    "properties":{"ID":179,
+    "properties":{
+            "ID":179,
         "station":"Springfield Mall",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -2422,10 +2615,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3489839,39.9181271]}},
 {"type":"Feature",
-    "properties":{"ID":269,
+    "properties":{
+            "ID":269,
         "station":"Highland",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2447,10 +2642,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2111045,40.0703059]}},
 {"type":"Feature",
-    "properties":{"ID":46,
+    "properties":{
+            "ID":46,
         "station":"Irvington Road",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -2472,10 +2669,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.289096,39.9487575]}},
 {"type":"Feature",
-    "properties":{"ID":56,
+    "properties":{
+            "ID":56,
         "station":"Torresdale",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -2497,10 +2696,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Torresdale",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9844981,40.0544313]}},
 {"type":"Feature",
-    "properties":{"ID":115,
+    "properties":{
+            "ID":115,
         "station":"Wyndmoor",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -2522,10 +2723,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1968748,40.0735438]}},
 {"type":"Feature",
-    "properties":{"ID":38,
+    "properties":{
+            "ID":38,
         "station":"Forest Hills",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -2547,10 +2750,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Somerton",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0207389,40.1278794]}},
 {"type":"Feature",
-    "properties":{"ID":68,
+    "properties":{
+            "ID":68,
         "station":"Burlington South",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -2572,10 +2777,12 @@
         "co_name":"Burlington",
         "mun_name":"Burlington City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8690033,40.0745804]}},
 {"type":"Feature",
-    "properties":{"ID":170,
+    "properties":{
+            "ID":170,
         "station":"Washington Lane",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -2597,10 +2804,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germantown, East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1715725,40.051108]}},
 {"type":"Feature",
-    "properties":{"ID":308,
+    "properties":{
+            "ID":308,
         "station":"Church",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2622,10 +2831,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Frankford",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0890848,40.0104227]}},
 {"type":"Feature",
-    "properties":{"ID":73,
+    "properties":{
+            "ID":73,
         "station":"Tulpehocken",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2647,10 +2858,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germantown, West Central",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.186941,40.0351219]}},
 {"type":"Feature",
-    "properties":{"ID":33,
+    "properties":{
+            "ID":33,
         "station":"Cherry Hill",
         "line":"Atlantic City Line",
         "operator":"NJ Transit",
@@ -2672,10 +2885,12 @@
         "co_name":"Camden",
         "mun_name":"Cherry Hill Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0417015,39.9284539]}},
 {"type":"Feature",
-    "properties":{"ID":301,
+    "properties":{
+            "ID":301,
         "station":"Allegheny",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2697,10 +2912,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Harrowgate",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1134266,39.9964885]}},
 {"type":"Feature",
-    "properties":{"ID":174,
+    "properties":{
+            "ID":174,
         "station":"Hilltop Road",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -2722,10 +2939,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2729116,39.9559157]}},
 {"type":"Feature",
-    "properties":{"ID":198,
+    "properties":{
+            "ID":198,
         "station":"Beverly Boulevard",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -2747,10 +2966,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2746085,39.9551076]}},
 {"type":"Feature",
-    "properties":{"ID":146,
+    "properties":{
+            "ID":146,
         "station":"Eddington",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -2772,10 +2993,12 @@
         "co_name":"Bucks",
         "mun_name":"Bensalem Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9337027,40.0829937]}},
 {"type":"Feature",
-    "properties":{"ID":122,
+    "properties":{
+            "ID":122,
         "station":"Somerton",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -2797,10 +3020,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Somerton",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0120496,40.1306249]}},
 {"type":"Feature",
-    "properties":{"ID":158,
+    "properties":{
+            "ID":158,
         "station":"Chestnut Hill West",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2822,10 +3047,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Chestnut Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2084931,40.0762414]}},
 {"type":"Feature",
-    "properties":{"ID":59,
+    "properties":{
+            "ID":59,
         "station":"Thomson Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -2847,10 +3074,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3454506,39.9211186]}},
 {"type":"Feature",
-    "properties":{"ID":166,
+    "properties":{
+            "ID":166,
         "station":"Ashland",
         "line":"PATCO",
         "operator":"PATCO",
@@ -2872,10 +3101,12 @@
         "co_name":"Camden",
         "mun_name":"Voorhees Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0091872,39.8587102]}},
 {"type":"Feature",
-    "properties":{"ID":195,
+    "properties":{
+            "ID":195,
         "station":"Arrott Transportation Center",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -2897,10 +3128,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Frankford",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0838643,40.0165955]}},
 {"type":"Feature",
-    "properties":{"ID":66,
+    "properties":{
+            "ID":66,
         "station":"Paoli",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -2922,10 +3155,12 @@
         "co_name":"Chester",
         "mun_name":"Tredyffrin Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4837577,40.0429565]}},
 {"type":"Feature",
-    "properties":{"ID":97,
+    "properties":{
+            "ID":97,
         "station":"Queen Lane",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2947,10 +3182,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germantown, Westside",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1780591,40.0232859]}},
 {"type":"Feature",
-    "properties":{"ID":143,
+    "properties":{
+            "ID":143,
         "station":"Main Street",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -2972,10 +3209,12 @@
         "co_name":"Montgomery",
         "mun_name":"Norristown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3486951,40.1170586]}},
 {"type":"Feature",
-    "properties":{"ID":125,
+    "properties":{
+            "ID":125,
         "station":"Allen Lane",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -2997,10 +3236,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1949197,40.0574665]}},
 {"type":"Feature",
-    "properties":{"ID":299,
+    "properties":{
+            "ID":299,
         "station":"Elkins Park",
         "line":"Glenside Combined",
         "operator":"SEPTA",
@@ -3022,10 +3263,12 @@
         "co_name":"Montgomery",
         "mun_name":"Cheltenham Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.127671,40.0712328]}},
 {"type":"Feature",
-    "properties":{"ID":168,
+    "properties":{
+            "ID":168,
         "station":"Radnor",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -3047,10 +3290,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3594598,40.0447356]}},
 {"type":"Feature",
-    "properties":{"ID":279,
+    "properties":{
+            "ID":279,
         "station":"Stadium (Ithan Avenue)",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -3072,10 +3317,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.340765,40.0326902]}},
 {"type":"Feature",
-    "properties":{"ID":52,
+    "properties":{
+            "ID":52,
         "station":"Paper Mill Road",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -3097,10 +3344,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3579015,39.9153698]}},
 {"type":"Feature",
-    "properties":{"ID":54,
+    "properties":{
+            "ID":54,
         "station":"49th Street",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -3122,10 +3371,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Kingsessing",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2164939,39.9436249]}},
 {"type":"Feature",
-    "properties":{"ID":84,
+    "properties":{
+            "ID":84,
         "station":"East Falls",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -3147,10 +3398,12 @@
         "co_name":"Philadelphia",
         "mun_name":"East Falls",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1920639,40.0114203]}},
 {"type":"Feature",
-    "properties":{"ID":171,
+    "properties":{
+            "ID":171,
         "station":"Villanova",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -3172,10 +3425,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3422973,40.0386474]}},
 {"type":"Feature",
-    "properties":{"ID":127,
+    "properties":{
+            "ID":127,
         "station":"North Hills",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -3197,10 +3452,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1695149,40.112089]}},
 {"type":"Feature",
-    "properties":{"ID":246,
+    "properties":{
+            "ID":246,
         "station":"Trevose",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -3222,10 +3479,12 @@
         "co_name":"Bucks",
         "mun_name":"Bensalem Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9827546,40.1401403]}},
 {"type":"Feature",
-    "properties":{"ID":44,
+    "properties":{
+            "ID":44,
         "station":"Highland Avenue",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -3247,10 +3506,12 @@
         "co_name":"Delaware",
         "mun_name":"Chester City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3930087,39.8337006]}},
 {"type":"Feature",
-    "properties":{"ID":306,
+    "properties":{
+            "ID":306,
         "station":"Glenside",
         "line":"Glenside Combined",
         "operator":"SEPTA",
@@ -3272,10 +3533,12 @@
         "co_name":"Montgomery",
         "mun_name":"Cheltenham Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1537143,40.1013439]}},
 {"type":"Feature",
-    "properties":{"ID":165,
+    "properties":{
+            "ID":165,
         "station":"Lindenwold",
         "line":"PATCO",
         "operator":"PATCO",
@@ -3297,10 +3560,12 @@
         "co_name":"Camden",
         "mun_name":"Lindenwold Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0005071,39.8338429]}},
 {"type":"Feature",
-    "properties":{"ID":131,
+    "properties":{
+            "ID":131,
         "station":"Haverford",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -3322,10 +3587,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3000704,40.0140202]}},
 {"type":"Feature",
-    "properties":{"ID":244,
+    "properties":{
+            "ID":244,
         "station":"Cornwells Heights",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -3347,10 +3614,12 @@
         "co_name":"Bucks",
         "mun_name":"Bensalem Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9522447,40.0717792]}},
 {"type":"Feature",
-    "properties":{"ID":264,
+    "properties":{
+            "ID":264,
         "station":"Ivy Ridge",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -3372,10 +3641,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Germany Hill",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2355025,40.0341328]}},
 {"type":"Feature",
-    "properties":{"ID":69,
+    "properties":{
+            "ID":69,
         "station":"Holmesburg Junction",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -3397,10 +3668,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Holmesburg",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0238557,40.0326493]}},
 {"type":"Feature",
-    "properties":{"ID":76,
+    "properties":{
+            "ID":76,
         "station":"Florence",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -3422,10 +3695,12 @@
         "co_name":"Burlington",
         "mun_name":"Florence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8050609,40.0999904]}},
 {"type":"Feature",
-    "properties":{"ID":157,
+    "properties":{
+            "ID":157,
         "station":"Upsal",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -3447,10 +3722,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.190205,40.042413]}},
 {"type":"Feature",
-    "properties":{"ID":65,
+    "properties":{
+            "ID":65,
         "station":"Drexeline",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -3472,10 +3749,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.321462,39.944841]}},
 {"type":"Feature",
-    "properties":{"ID":25,
+    "properties":{
+            "ID":25,
         "station":"Andrews Avenue",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -3497,10 +3776,12 @@
         "co_name":"Delaware",
         "mun_name":"Collingdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2819983,39.9117058]}},
 {"type":"Feature",
-    "properties":{"ID":67,
+    "properties":{
+            "ID":67,
         "station":"Allegheny",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -3522,10 +3803,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Tioga",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1652555,40.0037888]}},
 {"type":"Feature",
-    "properties":{"ID":242,
+    "properties":{
+            "ID":242,
         "station":"Erie-Torresdale",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -3547,10 +3830,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Juniata Park",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0961641,40.0059457]}},
 {"type":"Feature",
-    "properties":{"ID":110,
+    "properties":{
+            "ID":110,
         "station":"Germantown",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -3572,10 +3857,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Wister",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1719277,40.0378573]}},
 {"type":"Feature",
-    "properties":{"ID":145,
+    "properties":{
+            "ID":145,
         "station":"Elm Street",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -3597,10 +3884,12 @@
         "co_name":"Montgomery",
         "mun_name":"Norristown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3450604,40.1208347]}},
 {"type":"Feature",
-    "properties":{"ID":10,
+    "properties":{
+            "ID":10,
         "station":"Olney",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -3622,10 +3911,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Olney",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1229645,40.0331227]}},
 {"type":"Feature",
-    "properties":{"ID":12,
+    "properties":{
+            "ID":12,
         "station":"Fox Chase",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -3647,10 +3938,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Fox Chase",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0834888,40.0759612]}},
 {"type":"Feature",
-    "properties":{"ID":63,
+    "properties":{
+            "ID":63,
         "station":"Hamilton",
         "line":"Northeast Corridor",
         "operator":"NJ Transit",
@@ -3672,10 +3965,12 @@
         "co_name":"Mercer",
         "mun_name":"Hamilton Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.7040509,40.2553575]}},
 {"type":"Feature",
-    "properties":{"ID":222,
+    "properties":{
+            "ID":222,
         "station":"Radnor",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -3697,10 +3992,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3535872,40.0420104]}},
 {"type":"Feature",
-    "properties":{"ID":34,
+    "properties":{
+            "ID":34,
         "station":"Collingswood",
         "line":"PATCO",
         "operator":"PATCO",
@@ -3722,10 +4019,12 @@
         "co_name":"Camden",
         "mun_name":"Collingswood Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0644712,39.9135741]}},
 {"type":"Feature",
-    "properties":{"ID":161,
+    "properties":{
+            "ID":161,
         "station":"Westmont",
         "line":"PATCO",
         "operator":"PATCO",
@@ -3747,10 +4046,12 @@
         "co_name":"Camden",
         "mun_name":"Haddon Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0467924,39.9071581]}},
 {"type":"Feature",
-    "properties":{"ID":243,
+    "properties":{
+            "ID":243,
         "station":"Crestmont",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -3772,10 +4073,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.118649,40.1332725]}},
 {"type":"Feature",
-    "properties":{"ID":300,
+    "properties":{
+            "ID":300,
         "station":"Noble",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -3797,10 +4100,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1245055,40.1043642]}},
 {"type":"Feature",
-    "properties":{"ID":203,
+    "properties":{
+            "ID":203,
         "station":"Bryn Mawr",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -3822,10 +4127,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3233468,40.0179975]}},
 {"type":"Feature",
-    "properties":{"ID":17,
+    "properties":{
+            "ID":17,
         "station":"Rosemont",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -3847,10 +4154,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3272364,40.0281871]}},
 {"type":"Feature",
-    "properties":{"ID":160,
+    "properties":{
+            "ID":160,
         "station":"Thorndale",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -3872,10 +4181,12 @@
         "co_name":"Chester",
         "mun_name":"Caln Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.7628964,39.9927722]}},
 {"type":"Feature",
-    "properties":{"ID":263,
+    "properties":{
+            "ID":263,
         "station":"Fernwood-Yeadon",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -3897,10 +4208,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2558295,39.9397225]}},
 {"type":"Feature",
-    "properties":{"ID":292,
+    "properties":{
+            "ID":292,
         "station":"Villanova",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -3922,10 +4235,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3439691,40.0340471]}},
 {"type":"Feature",
-    "properties":{"ID":51,
+    "properties":{
+            "ID":51,
         "station":"Collingdale",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -3947,10 +4262,12 @@
         "co_name":"Delaware",
         "mun_name":"Collingdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2809518,39.9103448]}},
 {"type":"Feature",
-    "properties":{"ID":293,
+    "properties":{
+            "ID":293,
         "station":"DeKalb Street",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -3972,10 +4289,12 @@
         "co_name":"Montgomery",
         "mun_name":"Bridgeport Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3520513,40.0988567]}},
 {"type":"Feature",
-    "properties":{"ID":173,
+    "properties":{
+            "ID":173,
         "station":"Huey Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -3997,10 +4316,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2977588,39.9475513]}},
 {"type":"Feature",
-    "properties":{"ID":191,
+    "properties":{
+            "ID":191,
         "station":"Bala",
         "line":"Cynwyd Line",
         "operator":"SEPTA",
@@ -4022,10 +4343,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2277476,40.0010291]}},
 {"type":"Feature",
-    "properties":{"ID":265,
+    "properties":{
+            "ID":265,
         "station":"Stenton",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -4047,10 +4370,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1788074,40.0605441]}},
 {"type":"Feature",
-    "properties":{"ID":62,
+    "properties":{
+            "ID":62,
         "station":"Ryers",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -4072,10 +4397,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Burholme",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0867419,40.0636635]}},
 {"type":"Feature",
-    "properties":{"ID":55,
+    "properties":{
+            "ID":55,
         "station":"Daylesford",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -4097,10 +4424,12 @@
         "co_name":"Chester",
         "mun_name":"Tredyffrin Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4606083,40.0429469]}},
 {"type":"Feature",
-    "properties":{"ID":245,
+    "properties":{
+            "ID":245,
         "station":"Delaware Valley College",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -4122,10 +4451,12 @@
         "co_name":"Bucks",
         "mun_name":"Doylestown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1617899,40.2972372]}},
 {"type":"Feature",
-    "properties":{"ID":180,
+    "properties":{
+            "ID":180,
         "station":"Bartram Avenue",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4147,10 +4478,12 @@
         "co_name":"Delaware",
         "mun_name":"Collingdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2842218,39.9146021]}},
 {"type":"Feature",
-    "properties":{"ID":259,
+    "properties":{
+            "ID":259,
         "station":"Tacony",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -4172,10 +4505,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Tacony",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0390239,40.0232259]}},
 {"type":"Feature",
-    "properties":{"ID":82,
+    "properties":{
+            "ID":82,
         "station":"School Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4197,10 +4532,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2998919,39.9487162]}},
 {"type":"Feature",
-    "properties":{"ID":91,
+    "properties":{
+            "ID":91,
         "station":"Pennbrook",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -4222,10 +4559,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lansdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2817189,40.2301216]}},
 {"type":"Feature",
-    "properties":{"ID":276,
+    "properties":{
+            "ID":276,
         "station":"Garrett Hill",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -4247,10 +4586,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3362226,40.0277878]}},
 {"type":"Feature",
-    "properties":{"ID":142,
+    "properties":{
+            "ID":142,
         "station":"Lansdale",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -4272,10 +4613,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lansdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2853403,40.2430469]}},
 {"type":"Feature",
-    "properties":{"ID":197,
+    "properties":{
+            "ID":197,
         "station":"Tioga",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -4297,10 +4640,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Harrowgate",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1063668,40.0003621]}},
 {"type":"Feature",
-    "properties":{"ID":26,
+    "properties":{
+            "ID":26,
         "station":"Sedgwick",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -4322,10 +4667,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, East",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1852665,40.0628704]}},
 {"type":"Feature",
-    "properties":{"ID":11,
+    "properties":{
+            "ID":11,
         "station":"Carpenter",
         "line":"Chestnut Hill West Line",
         "operator":"SEPTA",
@@ -4347,10 +4694,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Mount Airy, West",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.19161,40.0509296]}},
 {"type":"Feature",
-    "properties":{"ID":213,
+    "properties":{
+            "ID":213,
         "station":"Leamy Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4372,10 +4721,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3373096,39.9262767]}},
 {"type":"Feature",
-    "properties":{"ID":215,
+    "properties":{
+            "ID":215,
         "station":"Springfield Road",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4397,10 +4748,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3295524,39.9344884]}},
 {"type":"Feature",
-    "properties":{"ID":86,
+    "properties":{
+            "ID":86,
         "station":"Woodcrest",
         "line":"PATCO",
         "operator":"PATCO",
@@ -4422,10 +4775,12 @@
         "co_name":"Camden",
         "mun_name":"Cherry Hill Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0112182,39.8701873]}},
 {"type":"Feature",
-    "properties":{"ID":216,
+    "properties":{
+            "ID":216,
         "station":"Marshall Road",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4447,10 +4802,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2965025,39.9402161]}},
 {"type":"Feature",
-    "properties":{"ID":305,
+    "properties":{
+            "ID":305,
         "station":"Ardmore Junction",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -4472,10 +4829,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3035195,39.996176]}},
 {"type":"Feature",
-    "properties":{"ID":74,
+    "properties":{
+            "ID":74,
         "station":"Penn Street",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4497,10 +4856,12 @@
         "co_name":"Delaware",
         "mun_name":"Clifton Heights Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2920269,39.9287727]}},
 {"type":"Feature",
-    "properties":{"ID":112,
+    "properties":{
+            "ID":112,
         "station":"Springfield Road",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4522,10 +4883,12 @@
         "co_name":"Delaware",
         "mun_name":"Clifton Heights Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2926768,39.9273709]}},
 {"type":"Feature",
-    "properties":{"ID":241,
+    "properties":{
+            "ID":241,
         "station":"Avon Road",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -4547,10 +4910,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.269071,39.9577001]}},
 {"type":"Feature",
-    "properties":{"ID":21,
+    "properties":{
+            "ID":21,
         "station":"Ardmore",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -4572,10 +4937,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2903045,40.0084264]}},
 {"type":"Feature",
-    "properties":{"ID":247,
+    "properties":{
+            "ID":247,
         "station":"Fairfield Avenue",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -4597,10 +4964,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2637852,39.9607435]}},
 {"type":"Feature",
-    "properties":{"ID":128,
+    "properties":{
+            "ID":128,
         "station":"Melrose Park",
         "line":"Glenside Combined",
         "operator":"SEPTA",
@@ -4622,10 +4991,12 @@
         "co_name":"Montgomery",
         "mun_name":"Cheltenham Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1291211,40.059499]}},
 {"type":"Feature",
-    "properties":{"ID":254,
+    "properties":{
+            "ID":254,
         "station":"Woodland Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4647,10 +5018,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3396368,39.9247618]}},
 {"type":"Feature",
-    "properties":{"ID":89,
+    "properties":{
+            "ID":89,
         "station":"Lawndale",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -4672,10 +5045,12 @@
         "co_name":"Montgomery",
         "mun_name":"Cheltenham Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1032156,40.0513473]}},
 {"type":"Feature",
-    "properties":{"ID":89,
+    "properties":{
+            "ID":89,
         "station":"Lawndale",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -4697,10 +5072,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Lawndale",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1032156,40.0513473]}},
 {"type":"Feature",
-    "properties":{"ID":123,
+    "properties":{
+            "ID":123,
         "station":"Drexelbrook",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4722,10 +5099,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3159918,39.9471761]}},
 {"type":"Feature",
-    "properties":{"ID":96,
+    "properties":{
+            "ID":96,
         "station":"Woodbourne",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -4747,10 +5126,12 @@
         "co_name":"Bucks",
         "mun_name":"Middletown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8909075,40.1908661]}},
 {"type":"Feature",
-    "properties":{"ID":78,
+    "properties":{
+            "ID":78,
         "station":"Baltimore Pike",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4772,10 +5153,12 @@
         "co_name":"Delaware",
         "mun_name":"Clifton Heights Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2928939,39.9312441]}},
 {"type":"Feature",
-    "properties":{"ID":199,
+    "properties":{
+            "ID":199,
         "station":"Wynnewood Road",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -4797,10 +5180,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.298286,39.9934149]}},
 {"type":"Feature",
-    "properties":{"ID":43,
+    "properties":{
+            "ID":43,
         "station":"Congress Avenue",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -4822,10 +5207,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2791632,39.952974]}},
 {"type":"Feature",
-    "properties":{"ID":155,
+    "properties":{
+            "ID":155,
         "station":"Walnut Street",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -4847,10 +5234,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2664972,39.9588688]}},
 {"type":"Feature",
-    "properties":{"ID":47,
+    "properties":{
+            "ID":47,
         "station":"Anderson Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -4872,10 +5261,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3128054,39.9478496]}},
 {"type":"Feature",
-    "properties":{"ID":58,
+    "properties":{
+            "ID":58,
         "station":"Wister",
         "line":"Chestnut Hill East Line",
         "operator":"SEPTA",
@@ -4897,10 +5288,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Wister",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1615084,40.0361872]}},
 {"type":"Feature",
-    "properties":{"ID":39,
+    "properties":{
+            "ID":39,
         "station":"Lansdowne",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -4922,10 +5315,12 @@
         "co_name":"Delaware",
         "mun_name":"Lansdowne Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.271435,39.9373015]}},
 {"type":"Feature",
-    "properties":{"ID":149,
+    "properties":{
+            "ID":149,
         "station":"Oakview",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -4947,10 +5342,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2951642,39.9351443]}},
 {"type":"Feature",
-    "properties":{"ID":208,
+    "properties":{
+            "ID":208,
         "station":"Airport Terminal B",
         "line":"Airport Line",
         "operator":"SEPTA",
@@ -4972,10 +5369,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Airport",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2446426,39.8764224]}},
 {"type":"Feature",
-    "properties":{"ID":8,
+    "properties":{
+            "ID":8,
         "station":"9th Street",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -4997,10 +5396,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lansdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2789083,40.2502849]}},
 {"type":"Feature",
-    "properties":{"ID":204,
+    "properties":{
+            "ID":204,
         "station":"Garretford",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -5022,10 +5423,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2958784,39.9441117]}},
 {"type":"Feature",
-    "properties":{"ID":206,
+    "properties":{
+            "ID":206,
         "station":"Lansdowne Avenue",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -5047,10 +5450,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2825217,39.9516195]}},
 {"type":"Feature",
-    "properties":{"ID":211,
+    "properties":{
+            "ID":211,
         "station":"Aronimink",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -5072,10 +5477,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.306098,39.9492716]}},
 {"type":"Feature",
-    "properties":{"ID":130,
+    "properties":{
+            "ID":130,
         "station":"Roslyn",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -5097,10 +5504,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1342182,40.1208464]}},
 {"type":"Feature",
-    "properties":{"ID":311,
+    "properties":{
+            "ID":311,
         "station":"Warminster",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -5122,10 +5531,12 @@
         "co_name":"Bucks",
         "mun_name":"Warminster Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0890976,40.1951159]}},
 {"type":"Feature",
-    "properties":{"ID":209,
+    "properties":{
+            "ID":209,
         "station":"Scenic Road",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -5147,10 +5558,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3259512,39.940823]}},
 {"type":"Feature",
-    "properties":{"ID":154,
+    "properties":{
+            "ID":154,
         "station":"Drexel Hill Junction",
         "line":"Route 101 & 102 Trolley Lines",
         "operator":"SEPTA",
@@ -5172,10 +5585,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2926885,39.9470591]}},
 {"type":"Feature",
-    "properties":{"ID":159,
+    "properties":{
+            "ID":159,
         "station":"Beverly/Edgewater Park",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -5197,10 +5612,12 @@
         "co_name":"Burlington",
         "mun_name":"Edgewater Park Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9151576,40.061163]}},
 {"type":"Feature",
-    "properties":{"ID":256,
+    "properties":{
+            "ID":256,
         "station":"Haddonfield",
         "line":"PATCO",
         "operator":"PATCO",
@@ -5222,10 +5639,12 @@
         "co_name":"Camden",
         "mun_name":"Haddonfield Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0368452,39.8973988]}},
 {"type":"Feature",
-    "properties":{"ID":312,
+    "properties":{
+            "ID":312,
         "station":"Wynnewood",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -5247,10 +5666,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2731185,40.0028258]}},
 {"type":"Feature",
-    "properties":{"ID":121,
+    "properties":{
+            "ID":121,
         "station":"Saxer Avenue",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -5272,10 +5693,12 @@
         "co_name":"Delaware",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3335501,39.928747]}},
 {"type":"Feature",
-    "properties":{"ID":249,
+    "properties":{
+            "ID":249,
         "station":"Airport Terminal A",
         "line":"Airport Line",
         "operator":"SEPTA",
@@ -5297,10 +5720,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Airport",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.246734,39.8760037]}},
 {"type":"Feature",
-    "properties":{"ID":61,
+    "properties":{
+            "ID":61,
         "station":"North Street",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -5322,10 +5747,12 @@
         "co_name":"Delaware",
         "mun_name":"Collingdale Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2855787,39.9176697]}},
 {"type":"Feature",
-    "properties":{"ID":81,
+    "properties":{
+            "ID":81,
         "station":"Cheltenham",
         "line":"Fox Chase Line",
         "operator":"SEPTA",
@@ -5347,10 +5774,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Burholme",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0928489,40.0578721]}},
 {"type":"Feature",
-    "properties":{"ID":79,
+    "properties":{
+            "ID":79,
         "station":"Drexel Manor",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -5372,10 +5801,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2965264,39.9422654]}},
 {"type":"Feature",
-    "properties":{"ID":72,
+    "properties":{
+            "ID":72,
         "station":"Secane",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -5397,10 +5828,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Darby Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.309847,39.915753]}},
 {"type":"Feature",
-    "properties":{"ID":224,
+    "properties":{
+            "ID":224,
         "station":"Matsonford",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -5422,10 +5855,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3394722,40.058072]}},
 {"type":"Feature",
-    "properties":{"ID":118,
+    "properties":{
+            "ID":118,
         "station":"St. Davids",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -5447,10 +5882,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3734362,40.0440954]}},
 {"type":"Feature",
-    "properties":{"ID":20,
+    "properties":{
+            "ID":20,
         "station":"Neshaminy Falls",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -5472,10 +5909,12 @@
         "co_name":"Bucks",
         "mun_name":"Bensalem Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9621398,40.146838]}},
 {"type":"Feature",
-    "properties":{"ID":239,
+    "properties":{
+            "ID":239,
         "station":"Roberts Road",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -5497,10 +5936,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3302926,40.021426]}},
 {"type":"Feature",
-    "properties":{"ID":13,
+    "properties":{
+            "ID":13,
         "station":"Merion",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -5522,10 +5963,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2514669,39.9975426]}},
 {"type":"Feature",
-    "properties":{"ID":162,
+    "properties":{
+            "ID":162,
         "station":"Wayne",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -5547,10 +5990,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3872112,40.0458389]}},
 {"type":"Feature",
-    "properties":{"ID":268,
+    "properties":{
+            "ID":268,
         "station":"36th Street",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -5572,10 +6017,12 @@
         "co_name":"Camden",
         "mun_name":"Pennsauken Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.079158,39.9613016]}},
 {"type":"Feature",
-    "properties":{"ID":192,
+    "properties":{
+            "ID":192,
         "station":"Penfield",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -5597,10 +6044,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2839733,39.9809574]}},
 {"type":"Feature",
-    "properties":{"ID":253,
+    "properties":{
+            "ID":253,
         "station":"Pennsauken Transit Center",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -5622,10 +6071,12 @@
         "co_name":"Camden",
         "mun_name":"Pennsauken Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0619962,39.9782883]}},
 {"type":"Feature",
-    "properties":{"ID":232,
+    "properties":{
+            "ID":232,
         "station":"Philmont",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -5647,10 +6098,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Moreland Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0437958,40.1219084]}},
 {"type":"Feature",
-    "properties":{"ID":106,
+    "properties":{
+            "ID":106,
         "station":"Downingtown",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -5672,10 +6125,12 @@
         "co_name":"Chester",
         "mun_name":"Downingtown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.7105783,40.002077]}},
 {"type":"Feature",
-    "properties":{"ID":286,
+    "properties":{
+            "ID":286,
         "station":"Ambler",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -5697,10 +6152,12 @@
         "co_name":"Montgomery",
         "mun_name":"Ambler Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2248997,40.153658]}},
 {"type":"Feature",
-    "properties":{"ID":163,
+    "properties":{
+            "ID":163,
         "station":"Clifton-Aldan",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -5722,10 +6179,12 @@
         "co_name":"Delaware",
         "mun_name":"Aldan Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2900441,39.9255059]}},
 {"type":"Feature",
-    "properties":{"ID":177,
+    "properties":{
+            "ID":177,
         "station":"Riverside",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -5747,10 +6206,12 @@
         "co_name":"Burlington",
         "mun_name":"Riverside Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9588839,40.03925]}},
 {"type":"Feature",
-    "properties":{"ID":298,
+    "properties":{
+            "ID":298,
         "station":"County Line",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -5772,10 +6233,12 @@
         "co_name":"Delaware",
         "mun_name":"Radnor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.34734,40.0501174]}},
 {"type":"Feature",
-    "properties":{"ID":24,
+    "properties":{
+            "ID":24,
         "station":"Glenolden",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -5797,10 +6260,12 @@
         "co_name":"Delaware",
         "mun_name":"Glenolden Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2901839,39.8962167]}},
 {"type":"Feature",
-    "properties":{"ID":100,
+    "properties":{
+            "ID":100,
         "station":"Gladstone",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -5822,10 +6287,12 @@
         "co_name":"Delaware",
         "mun_name":"Lansdowne Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2821229,39.932763]}},
 {"type":"Feature",
-    "properties":{"ID":75,
+    "properties":{
+            "ID":75,
         "station":"Bridesburg",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -5847,10 +6314,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Frankford",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0698759,40.0107133]}},
 {"type":"Feature",
-    "properties":{"ID":92,
+    "properties":{
+            "ID":92,
         "station":"Doylestown",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -5872,10 +6341,12 @@
         "co_name":"Bucks",
         "mun_name":"Doylestown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1308434,40.3060225]}},
 {"type":"Feature",
-    "properties":{"ID":212,
+    "properties":{
+            "ID":212,
         "station":"Ridley Park",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -5897,10 +6368,12 @@
         "co_name":"Delaware",
         "mun_name":"Ridley Park Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3219289,39.880623]}},
 {"type":"Feature",
-    "properties":{"ID":280,
+    "properties":{
+            "ID":280,
         "station":"Bridgeport",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -5922,10 +6395,12 @@
         "co_name":"Montgomery",
         "mun_name":"Bridgeport Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3481763,40.1048761]}},
 {"type":"Feature",
-    "properties":{"ID":214,
+    "properties":{
+            "ID":214,
         "station":"Crum Lynne",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -5947,10 +6422,12 @@
         "co_name":"Delaware",
         "mun_name":"Ridley Park Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3309608,39.8718703]}},
 {"type":"Feature",
-    "properties":{"ID":16,
+    "properties":{
+            "ID":16,
         "station":"Meadowbrook",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -5972,10 +6449,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0925166,40.1113787]}},
 {"type":"Feature",
-    "properties":{"ID":28,
+    "properties":{
+            "ID":28,
         "station":"Bordentown",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -5997,10 +6476,12 @@
         "co_name":"Burlington",
         "mun_name":"Bordentown City",
         "mun_type":"City"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.7162082,40.1482121]}},
 {"type":"Feature",
-    "properties":{"ID":114,
+    "properties":{
+            "ID":114,
         "station":"Sharon Hill",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -6022,10 +6503,12 @@
         "co_name":"Delaware",
         "mun_name":"Sharon Hill Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2781124,39.9066196]}},
 {"type":"Feature",
-    "properties":{"ID":45,
+    "properties":{
+            "ID":45,
         "station":"Angora",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6047,10 +6530,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Kingsessing",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2383532,39.9449193]}},
 {"type":"Feature",
-    "properties":{"ID":270,
+    "properties":{
+            "ID":270,
         "station":"Providence Road",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -6072,10 +6557,12 @@
         "co_name":"Delaware",
         "mun_name":"Aldan Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2886165,39.9217178]}},
 {"type":"Feature",
-    "properties":{"ID":150,
+    "properties":{
+            "ID":150,
         "station":"Pennsauken/Route 73",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -6097,10 +6584,12 @@
         "co_name":"Camden",
         "mun_name":"Pennsauken Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0391218,39.9934256]}},
 {"type":"Feature",
-    "properties":{"ID":176,
+    "properties":{
+            "ID":176,
         "station":"Primos",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6122,10 +6611,12 @@
         "co_name":"Delaware",
         "mun_name":"Aldan Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2982074,39.9217633]}},
 {"type":"Feature",
-    "properties":{"ID":135,
+    "properties":{
+            "ID":135,
         "station":"Bristol",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -6147,10 +6638,12 @@
         "co_name":"Bucks",
         "mun_name":"Bristol Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8546416,40.105037]}},
 {"type":"Feature",
-    "properties":{"ID":134,
+    "properties":{
+            "ID":134,
         "station":"Yardley",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -6172,10 +6665,12 @@
         "co_name":"Bucks",
         "mun_name":"Yardley Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8309533,40.2350589]}},
 {"type":"Feature",
-    "properties":{"ID":60,
+    "properties":{
+            "ID":60,
         "station":"Beatty Road",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -6197,10 +6692,12 @@
         "co_name":"Delaware",
         "mun_name":"Nether Providence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3769148,39.9161786]}},
 {"type":"Feature",
-    "properties":{"ID":205,
+    "properties":{
+            "ID":205,
         "station":"Wallingford",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6222,10 +6719,12 @@
         "co_name":"Delaware",
         "mun_name":"Nether Providence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3716049,39.903748]}},
 {"type":"Feature",
-    "properties":{"ID":22,
+    "properties":{
+            "ID":22,
         "station":"Narberth",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -6247,10 +6746,12 @@
         "co_name":"Montgomery",
         "mun_name":"Narberth Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2615404,40.0048661]}},
 {"type":"Feature",
-    "properties":{"ID":202,
+    "properties":{
+            "ID":202,
         "station":"Beechwood-Brookline",
         "line":"Norristown High Speed Line",
         "operator":"SEPTA",
@@ -6272,10 +6773,12 @@
         "co_name":"Delaware",
         "mun_name":"Haverford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2916181,39.9865976]}},
 {"type":"Feature",
-    "properties":{"ID":94,
+    "properties":{
+            "ID":94,
         "station":"Cynwyd",
         "line":"Cynwyd Line",
         "operator":"SEPTA",
@@ -6297,10 +6800,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Merion Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2318207,40.0067721]}},
 {"type":"Feature",
-    "properties":{"ID":14,
+    "properties":{
+            "ID":14,
         "station":"Langhorne",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -6322,10 +6827,12 @@
         "co_name":"Bucks",
         "mun_name":"Middletown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9131128,40.1606388]}},
 {"type":"Feature",
-    "properties":{"ID":30,
+    "properties":{
+            "ID":30,
         "station":"Palmyra",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -6347,10 +6854,12 @@
         "co_name":"Burlington",
         "mun_name":"Palmyra Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.02113,40.0042245]}},
 {"type":"Feature",
-    "properties":{"ID":99,
+    "properties":{
+            "ID":99,
         "station":"Folcroft",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -6372,10 +6881,12 @@
         "co_name":"Delaware",
         "mun_name":"Folcroft Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2798732,39.9005092]}},
 {"type":"Feature",
-    "properties":{"ID":138,
+    "properties":{
+            "ID":138,
         "station":"Penllyn",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -6397,10 +6908,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Gwynedd Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2439487,40.1697033]}},
 {"type":"Feature",
-    "properties":{"ID":95,
+    "properties":{
+            "ID":95,
         "station":"Rydal",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -6422,10 +6935,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1106682,40.1074289]}},
 {"type":"Feature",
-    "properties":{"ID":252,
+    "properties":{
+            "ID":252,
         "station":"Malvern",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -6447,10 +6962,12 @@
         "co_name":"Chester",
         "mun_name":"Malvern Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.5155792,40.036445]}},
 {"type":"Feature",
-    "properties":{"ID":190,
+    "properties":{
+            "ID":190,
         "station":"Princeton Junction",
         "line":"Northeast Corridor",
         "operator":"NJ Transit",
@@ -6472,10 +6989,12 @@
         "co_name":"Mercer",
         "mun_name":"West Windsor Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.624102,40.316027]}},
 {"type":"Feature",
-    "properties":{"ID":36,
+    "properties":{
+            "ID":36,
         "station":"Clifton-Aldan",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6497,10 +7016,12 @@
         "co_name":"Delaware",
         "mun_name":"Aldan Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2903182,39.9266675]}},
 {"type":"Feature",
-    "properties":{"ID":90,
+    "properties":{
+            "ID":90,
         "station":"Ardsley",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -6522,10 +7043,12 @@
         "co_name":"Montgomery",
         "mun_name":"Abington Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1531626,40.1141683]}},
 {"type":"Feature",
-    "properties":{"ID":88,
+    "properties":{
+            "ID":88,
         "station":"Norwood",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -6547,10 +7070,12 @@
         "co_name":"Delaware",
         "mun_name":"Norwood Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3021123,39.891241]}},
 {"type":"Feature",
-    "properties":{"ID":23,
+    "properties":{
+            "ID":23,
         "station":"Oreland",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -6572,10 +7097,12 @@
         "co_name":"Montgomery",
         "mun_name":"Springfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1838403,40.1181996]}},
 {"type":"Feature",
-    "properties":{"ID":64,
+    "properties":{
+            "ID":64,
         "station":"Swarthmore",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6597,10 +7124,12 @@
         "co_name":"Delaware",
         "mun_name":"Swarthmore Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3508923,39.9023332]}},
 {"type":"Feature",
-    "properties":{"ID":184,
+    "properties":{
+            "ID":184,
         "station":"Pine Ridge",
         "line":"Route 101 Trolley",
         "operator":"SEPTA",
@@ -6622,10 +7151,12 @@
         "co_name":"Delaware",
         "mun_name":"Nether Providence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3699716,39.9149637]}},
 {"type":"Feature",
-    "properties":{"ID":187,
+    "properties":{
+            "ID":187,
         "station":"Airport Terminal C & D",
         "line":"Airport Line",
         "operator":"SEPTA",
@@ -6647,10 +7178,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Airport",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2416582,39.8773196]}},
 {"type":"Feature",
-    "properties":{"ID":294,
+    "properties":{
+            "ID":294,
         "station":"Berwyn",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -6672,10 +7205,12 @@
         "co_name":"Chester",
         "mun_name":"Easttown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4424787,40.048095]}},
 {"type":"Feature",
-    "properties":{"ID":101,
+    "properties":{
+            "ID":101,
         "station":"Magnolia Avenue",
         "line":"Route 102 Trolley",
         "operator":"SEPTA",
@@ -6697,10 +7232,12 @@
         "co_name":"Delaware",
         "mun_name":"Aldan Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2868012,39.919384]}},
 {"type":"Feature",
-    "properties":{"ID":32,
+    "properties":{
+            "ID":32,
         "station":"Prospect Park",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -6722,10 +7259,12 @@
         "co_name":"Delaware",
         "mun_name":"Prospect Park Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3094537,39.8881193]}},
 {"type":"Feature",
-    "properties":{"ID":29,
+    "properties":{
+            "ID":29,
         "station":"Darby",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -6747,10 +7286,12 @@
         "co_name":"Delaware",
         "mun_name":"Darby Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2545952,39.9129531]}},
 {"type":"Feature",
-    "properties":{"ID":182,
+    "properties":{
+            "ID":182,
         "station":"Devon",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -6772,10 +7313,12 @@
         "co_name":"Chester",
         "mun_name":"Easttown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4229729,40.0473693]}},
 {"type":"Feature",
-    "properties":{"ID":218,
+    "properties":{
+            "ID":218,
         "station":"Millbourne",
         "line":"Market/Frankford Line",
         "operator":"SEPTA",
@@ -6797,10 +7340,12 @@
         "co_name":"Delaware",
         "mun_name":"Millbourne Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2525543,39.9644633]}},
 {"type":"Feature",
-    "properties":{"ID":139,
+    "properties":{
+            "ID":139,
         "station":"Hatboro",
         "line":"Warminster Line",
         "operator":"SEPTA",
@@ -6822,10 +7367,12 @@
         "co_name":"Montgomery",
         "mun_name":"Hatboro Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1025405,40.1764188]}},
 {"type":"Feature",
-    "properties":{"ID":140,
+    "properties":{
+            "ID":140,
         "station":"Croydon",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -6847,10 +7394,12 @@
         "co_name":"Bucks",
         "mun_name":"Bristol Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9065755,40.0935754]}},
 {"type":"Feature",
-    "properties":{"ID":185,
+    "properties":{
+            "ID":185,
         "station":"Atco",
         "line":"Atlantic City Line",
         "operator":"NJ Transit",
@@ -6872,10 +7421,12 @@
         "co_name":"Camden",
         "mun_name":"Waterford Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.907609,39.7835607]}},
 {"type":"Feature",
-    "properties":{"ID":70,
+    "properties":{
+            "ID":70,
         "station":"Airport Terminal E & F",
         "line":"Airport Line",
         "operator":"SEPTA",
@@ -6897,10 +7448,12 @@
         "co_name":"Philadelphia",
         "mun_name":"Airport",
         "mun_type":"Philadelphia Neighborhoods"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2400741,39.8790205]}},
 {"type":"Feature",
-    "properties":{"ID":120,
+    "properties":{
+            "ID":120,
         "station":"Elwyn",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6922,10 +7475,12 @@
         "co_name":"Delaware",
         "mun_name":"Middletown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4111576,39.9078521]}},
 {"type":"Feature",
-    "properties":{"ID":258,
+    "properties":{
+            "ID":258,
         "station":"Moylan-Rose Valley",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6947,10 +7502,12 @@
         "co_name":"Delaware",
         "mun_name":"Nether Providence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3881017,39.905851]}},
 {"type":"Feature",
-    "properties":{"ID":111,
+    "properties":{
+            "ID":111,
         "station":"Morton",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -6972,10 +7529,12 @@
         "co_name":"Delaware",
         "mun_name":"Morton Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3284815,39.9080065]}},
 {"type":"Feature",
-    "properties":{"ID":141,
+    "properties":{
+            "ID":141,
         "station":"Conshohocken",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -6997,10 +7556,12 @@
         "co_name":"Montgomery",
         "mun_name":"Conshohocken Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3086704,40.0721378]}},
 {"type":"Feature",
-    "properties":{"ID":262,
+    "properties":{
+            "ID":262,
         "station":"Whitford",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -7022,10 +7583,12 @@
         "co_name":"Chester",
         "mun_name":"West Whiteland Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.6384404,40.0147124]}},
 {"type":"Feature",
-    "properties":{"ID":317,
+    "properties":{
+            "ID":317,
         "station":"Levittown",
         "line":"Trenton Line",
         "operator":"SEPTA",
@@ -7047,10 +7610,12 @@
         "co_name":"Bucks",
         "mun_name":"Tullytown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.8170164,40.1402588]}},
 {"type":"Feature",
-    "properties":{"ID":133,
+    "properties":{
+            "ID":133,
         "station":"Bethayres",
         "line":"West Trenton Line",
         "operator":"SEPTA",
@@ -7072,10 +7637,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Moreland Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0687225,40.1165349]}},
 {"type":"Feature",
-    "properties":{"ID":19,
+    "properties":{
+            "ID":19,
         "station":"North Wales",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7097,10 +7664,12 @@
         "co_name":"Montgomery",
         "mun_name":"North Wales Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2772583,40.2143534]}},
 {"type":"Feature",
-    "properties":{"ID":281,
+    "properties":{
+            "ID":281,
         "station":"New Britain",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7122,10 +7691,12 @@
         "co_name":"Bucks",
         "mun_name":"Doylestown Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1796647,40.2974895]}},
 {"type":"Feature",
-    "properties":{"ID":103,
+    "properties":{
+            "ID":103,
         "station":"Media",
         "line":"Media/Elwyn Line",
         "operator":"SEPTA",
@@ -7147,10 +7718,12 @@
         "co_name":"Delaware",
         "mun_name":"Upper Providence Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.394691,39.9142549]}},
 {"type":"Feature",
-    "properties":{"ID":85,
+    "properties":{
+            "ID":85,
         "station":"Sharon Hill",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -7172,10 +7745,12 @@
         "co_name":"Delaware",
         "mun_name":"Sharon Hill Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2713079,39.9040961]}},
 {"type":"Feature",
-    "properties":{"ID":147,
+    "properties":{
+            "ID":147,
         "station":"Chalfont",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7197,10 +7772,12 @@
         "co_name":"Bucks",
         "mun_name":"Chalfont Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2107052,40.2877589]}},
 {"type":"Feature",
-    "properties":{"ID":295,
+    "properties":{
+            "ID":295,
         "station":"Jenkintown-Wyncote",
         "line":"Glenside Combined",
         "operator":"SEPTA",
@@ -7222,10 +7799,12 @@
         "co_name":"Montgomery",
         "mun_name":"Jenkintown Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.1377791,40.0932206]}},
 {"type":"Feature",
-    "properties":{"ID":80,
+    "properties":{
+            "ID":80,
         "station":"Delanco",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -7247,10 +7826,12 @@
         "co_name":"Burlington",
         "mun_name":"Delanco Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-74.9503539,40.0480861]}},
 {"type":"Feature",
-    "properties":{"ID":124,
+    "properties":{
+            "ID":124,
         "station":"Riverton",
         "line":"RiverLine",
         "operator":"NJ Transit",
@@ -7272,10 +7853,12 @@
         "co_name":"Burlington",
         "mun_name":"Riverton Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.0130563,40.0089333]}},
 {"type":"Feature",
-    "properties":{"ID":153,
+    "properties":{
+            "ID":153,
         "station":"Exton",
         "line":"Paoli/Thorndale Line",
         "operator":"SEPTA",
@@ -7297,10 +7880,12 @@
         "co_name":"Chester",
         "mun_name":"West Whiteland Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.6217572,40.0194312]}},
 {"type":"Feature",
-    "properties":{"ID":83,
+    "properties":{
+            "ID":83,
         "station":"Curtis Park",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -7322,10 +7907,12 @@
         "co_name":"Delaware",
         "mun_name":"Sharon Hill Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2650075,39.9080271]}},
 {"type":"Feature",
-    "properties":{"ID":126,
+    "properties":{
+            "ID":126,
         "station":"Colmar",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7347,10 +7934,12 @@
         "co_name":"Montgomery",
         "mun_name":"Hatfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2540989,40.2684785]}},
 {"type":"Feature",
-    "properties":{"ID":129,
+    "properties":{
+            "ID":129,
         "station":"Fort Washington",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7372,10 +7961,12 @@
         "co_name":"Montgomery",
         "mun_name":"Whitemarsh Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2114604,40.1352668]}},
 {"type":"Feature",
-    "properties":{"ID":291,
+    "properties":{
+            "ID":291,
         "station":"Miquon",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -7397,10 +7988,12 @@
         "co_name":"Montgomery",
         "mun_name":"Whitemarsh Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2664137,40.058557]}},
 {"type":"Feature",
-    "properties":{"ID":93,
+    "properties":{
+            "ID":93,
         "station":"Fortuna",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7422,10 +8015,12 @@
         "co_name":"Montgomery",
         "mun_name":"Hatfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2662883,40.2595314]}},
 {"type":"Feature",
-    "properties":{"ID":178,
+    "properties":{
+            "ID":178,
         "station":"Eddystone",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -7447,10 +8042,12 @@
         "co_name":"Delaware",
         "mun_name":"Eddystone Borough",
         "mun_type":"Borough"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.3417196,39.8573853]}},
 {"type":"Feature",
-    "properties":{"ID":137,
+    "properties":{
+            "ID":137,
         "station":"Spring Mill",
         "line":"Manayunk/Norristown Line",
         "operator":"SEPTA",
@@ -7472,10 +8069,12 @@
         "co_name":"Montgomery",
         "mun_name":"Whitemarsh Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2860655,40.0742262]}},
 {"type":"Feature",
-    "properties":{"ID":18,
+    "properties":{
+            "ID":18,
         "station":"Gwynedd Valley",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7497,10 +8096,12 @@
         "co_name":"Montgomery",
         "mun_name":"Lower Gwynedd Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2569412,40.1848394]}},
 {"type":"Feature",
-    "properties":{"ID":15,
+    "properties":{
+            "ID":15,
         "station":"Link Belt",
         "line":"Lansdale/Doylestown Line",
         "operator":"SEPTA",
@@ -7522,10 +8123,12 @@
         "co_name":"Montgomery",
         "mun_name":"Hatfield Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.2467568,40.2738583]}},
 {"type":"Feature",
-    "properties":{"ID":57,
+    "properties":{
+            "ID":57,
         "station":"Marcus Hook",
         "line":"Wilmington/Newark Line",
         "operator":"SEPTA",
@@ -7547,5 +8150,6 @@
         "co_name":"Delaware",
         "mun_name":"Lower Chichester Township",
         "mun_type":"Township"},
-    "geometry":{"type":"Point",
+    "geometry":{
+            "type":"Point",
         "coordinates":[-75.4196013,39.8216251]}}]}

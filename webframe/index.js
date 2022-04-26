@@ -10,12 +10,13 @@
 
 window.initMap = initMap;
 */
-const map = L.map('map').setView([39.9526, -75.1652], 13);
+const scoremap = L.map('map').setView([39.9526, -75.1652], 13);
+const stationLayer = L.layerGroup().addTo(scoremap);
 
 L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   ext: 'png',
-}).addTo(map);
+}).addTo(scoremap);
 
 // let p1;
 // let showpoints;
@@ -27,7 +28,6 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{e
 //     bindTooltip(l => l.features.properties.station).
 //     addTo(map);
 //   });
-
 
 
 // Lines
@@ -42,7 +42,7 @@ fetch('https://arcgis.dvrpc.org/portal/rest/services/Transportation/PassengerRai
                 weight: 5,
                 opacity: 0.7};
     }
-  }).addTo(map);
+  }).addTo(scoremap);
 });
 
 // Stations
@@ -54,18 +54,20 @@ styleOptionsstation = {
   fillOpacity: 1
 };
 
-fetch('station_final_score.geojson')
+var stations = { features: [] };
+fetch('stations_final_0426.geojson')
 .then(function (response) {
   return response.json();
 })
 .then(function (datascore) {
+  stations = datascore;
   L.geoJSON(datascore/*, { Color TBD
     pointToLayer: function(feature, latlng) {
         return L.circleMarker(latlng, styleOptionsstation);
     }
   }*/).bindPopup(function (layer) {
     return layer.feature.properties.station + ": " + layer.feature.properties.sc_aph;
-  }).addTo(map);
+  }).addTo(stationLayer);
 });
 
 // Parcels
@@ -89,5 +91,88 @@ fetch('parcel_data.geojson')
     }
   }).bindPopup(function (layer) {
     return layer.feature.properties.lu15subn;
-  }).addTo(map);
+  }).addTo(scoremap);
 });
+
+
+// Select
+// const ModeSelect = document.querySelector('#service-select');
+
+let Grade = '';
+let Muni = '';
+let Mode = '';
+function ModeSelect() {
+  stationLayer.clearLayers();
+  Grade = document.getElementById('score-select').value;
+  Muni = document.getElementById('location-select').value;
+  Mode = document.getElementById('service-select').value;
+  
+  let GradeFilter;
+  if (Grade === '')  {
+    GradeFilter = stations;
+  } else {
+    GradeFilter = stations.features.filter(a => a.properties.grade === Grade);
+  }
+  
+  // let MuniFilter;
+  // if (Muni === '')  {
+  //   MuniFilter = stations;
+  // } else {
+  //   MuniFilter = stations.features.filter(a => a.properties.mun_type === Muni);
+  // }
+  // let ModeFilter;
+  // if (Mode === '')  {
+  //   ModeFilter = MuniFilter;
+  // } else {
+  //   if (MuniFilter.length === stations.length) {
+  //     ModeFilter = MuniFilter.features.filter(a => a.properties.type.replace('_', ' ') === Mode);
+  //   } else {
+  //     ModeFilter = MuniFilter.filter(a => a.properties.type.replace('_', ' ') === Mode);
+  //   }
+  // }
+  L.geoJSON(GradeFilter).bindPopup(function (layer) {
+    return layer.feature.properties.station + ": " + layer.feature.properties.sc_aph;
+  }).addTo(stationLayer);
+};
+
+//  ModeSelect.addEventListener('change', handleSelectChange);
+
+// let updateStationMarkers = (stationsToShow) => {
+//   stationLayer.clearLayers();
+//   stationsToShow.forEach((station) => {
+//     const lat = parseFloat(station['geometry.coordinates'].split(',')[0]);
+//     const lng = parseFloat(station['geometry.coordinates'].split(',')[1]);
+//     const stationName = station['properties.station'];
+//     const marker = L.marker([lat, lng]);
+//     marker.bindTooltip(stationName);
+//     stationLayer.addLayer(marker);
+//   });
+// };
+
+// let initializeScoreChoices = () => {
+//   let score = stations['features'].map(a => a.properties.sc_aph);
+//   if (score > 7) {
+//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Larger than 7 (Ideal)</option>`)));
+//   }
+//   if (score > 4.99 && score < 7.01) {
+//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Between 5 and 7 (Mediocre)</option>`)));
+//   }
+//   if (score < 5) {
+//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Lower than 5 (Not ideal)</option>`)));
+//   }
+//   return score;
+// };
+
+// let filteredStations = () => {
+//   let stationFilter = [];
+//   if (ScoreSelect.value === 'All') {
+//     stationFilter = stations.features;
+//   }
+//   return stationFilter;
+// };
+
+
+// // The code below will be run when this script first loads. Think of it as the
+// // initialization step for the web page.
+// initializeScoreChoices();
+// updateStationMarkers(stations);

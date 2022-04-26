@@ -20,8 +20,21 @@ body{
     height: 100%;
 }
 
+.mapbox {
+    width: 100%;
+}
+
+.filters {
+    padding: 10px;
+    position: relative;
+    z-index: 401;
+    font-size: 15px;
+    text-align: center;
+}
+
 .map {
     flex-grow: 1;
+    height: 100%;
     width: 100%;
 }
 
@@ -37,12 +50,4 @@ body{
 .story {
     width: 100%;
     padding: 1rem;
-}
-
-.slide-title{
-  max-height: 1rem;
-}
-  
-.slide-nav-select {
-    min-width: 0;
 }

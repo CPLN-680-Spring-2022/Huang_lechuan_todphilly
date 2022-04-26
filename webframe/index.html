@@ -11,13 +11,45 @@
     <div class="top"><img src = "dvrpc_logo_white.png" alt="My Happy SVG" width=80px/>   TODPhilly</div>
 
     <div class="main">
-    <div class="content">
-        <div class="story"> </div>
-        <div class="slide-title"></div>
-        <div class="slide-content"></div>
-    </div>
+        <div class="content">
+            <div class="story"> </div>
+            <div class="slide-title"></div>
+            <div class="slide-content"></div>
+        </div>
     
-    <div class="map" id="map"></div>
+        <div class="mapbox">
+            <div class="map" id="map">
+                <div class="filters">
+                    <fieldset id="station-filters">
+                        <label for="score-select">Score Range</label>
+                        <select id="score-select" class="form-select" onInput="ModeSelect()">
+                            <option value="">All</option>
+                            <option>Larger than 7 (Ideal)</option>
+                            <option>Between 5 and 7 (Mediocre)</option>
+                            <option>Lower than 5 (Not ideal)</option>
+                        </select>
+  
+                        <label for="location-select">Municipality Level</label>
+                        <select id="location-select" class="form-select" onInput="ModeSelect()">
+                            <option value="">All</option>
+                            <option>Philadelphia Neighborhoods</option>
+                            <option>City</option>
+                            <option>Borough</option>
+                            <option>Township</option>
+                        </select>
+
+                        <label for="service-select">Service Mode</label>
+                        <select id="service-select" class="form-select" onInput="ModeSelect()">
+                            <option value="">All</option>
+                            <option>Regional Rail</option>
+                            <option>Transit Rail</option>
+                            <option>Light Rail</option>
+                            <option>Trolley</option>
+                        </select>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
     </div>
 
    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>

@@ -3,7 +3,7 @@ const scoremap = L.map('map').setView([39.9526, -75.1652], 11);
 const stationLayer = L.layerGroup().addTo(scoremap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/hlechuan/ckygb56s41bo614o8h16eyz4m/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiaGxlY2h1YW4iLCJhIjoiY2t5Z2IyMTl5MHhoYjJ3bWw1c2xvaDEwYyJ9.MHPJtyIHAt7moC3UYhYIjg', {
-  attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  attribution: '©<a href="https://www.mapbox.com/feedback/">Mapbox</a>©<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   ext: 'png',
 }).addTo(scoremap);
 

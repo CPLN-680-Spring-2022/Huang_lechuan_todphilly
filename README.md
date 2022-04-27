@@ -16,14 +16,10 @@
 However, all of the factors it used are not weighted; also, it does not include social factors about the neighborhoods stations are located.
 </p>
 
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/raw_data/DVRPC_Rail_stations.png)
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/cleaned_data/vacant_lots+todbuffer.png)
-
 <h3><b>Scopes and Goals</b></h3>
 <p>Thus, in this project I decide to produce a dashboard to identify possible TOD locations and their feasibility to be redeveloped and renewed based on more comprehensive factors.</p>
 
 ![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Final_TOD.png)
-![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/cleaned_data/available_parcel.png)
 
 <h2><b>Folder Organization</b></h2>
 <p>
@@ -37,17 +33,12 @@ However, all of the factors it used are not weighted; also, it does not include 
     </ul>
 <li>Folder with <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/cleaned_data"><code>/cleaned_data</code></a>: future R coding will be based on files here</li>
     <ul>
-      <li>Tidycensus tract map with certain variables</li>
-      <li>Transit stations with type and symbological marks</li>
-      <li>Parcel data (converted to point data to save energy) within TOD buffers</li>
+      <li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/cleaned_data/final_mat"><code>/final_mat:</code></a> Final station data with TOD index data (shp and geojson)</li>
+      <li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/cleaned_data/Parcel_analysis"><code>/Parcel_analysis:</code></a> Exploratory Analysis of parcels within the TOD buffers</li>
       <li>Exploratory analysis results (csv and png)</li>
     </ul>
-<li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/scripts"><code>/scripts</code></a>: with initial code to explore the data.</li>
-    <ul>
-      <li>R script to clean and explore the data.</li>
-    </ul>
+<li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/Scripts"><code>/Scripts</code></a>: with R codes to explore the data.</li>
 <li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/webframe"><code>/webframe</code></a>: files required to create dashboard.</li>
-<li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Captsone%20Presentation.pdf"><code>/Captsone Presentation.pdf</code></a>: Presentation slides for the Feb 10 Class.</li>
-<li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/README.md"><code>/README.md</code></a> file describing the project and folder organization. (THIS FILE)</li>
+<li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Metadata.xlsx"><code>/Metadata.xlsx</code></a>: Metadata for the MCDA Model.</li>
 
 </p>

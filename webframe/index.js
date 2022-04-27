@@ -96,7 +96,6 @@ fetch('parcel_data.geojson')
 
 
 // Select
-// const ModeSelect = document.querySelector('#service-select');
 
 let Grade = '';
 let Muni = '';
@@ -113,24 +112,37 @@ function ModeSelect() {
   } else {
     GradeFilter = stations.features.filter(a => a.properties.grade === Grade);
   }
-  
-  // let MuniFilter;
-  // if (Muni === '')  {
-  //   MuniFilter = stations;
-  // } else {
-  //   MuniFilter = stations.features.filter(a => a.properties.mun_type === Muni);
-  // }
+  let MuniFilter;
+  if (Muni === '')  {
+    MuniFilter = GradeFilter;
+  } else {
+    if (GradeFilter.length === stations.length) {
+      MuniFilter = GradeFilter.features.filter(a => a.properties.mun_type === Muni);
+    } else {
+      MuniFilter = GradeFilter.filter(a => a.properties.mun_type === Muni);
+    }
+  }
+  let ModeFilter;
+  if (Mode === '')  {
+    ModeFilter = MuniFilter;
+  } else {
+    if (MuniFilter.length === stations.length) {
+      ModeFilter = MuniFilter.features.filter(a => a.properties.type.replace('_', ' ') === Mode);
+    } else {
+      ModeFilter = MuniFilter.filter(a => a.properties.type.replace('_', ' ') === Mode);
+    }
+  }
   // let ModeFilter;
   // if (Mode === '')  {
   //   ModeFilter = MuniFilter;
   // } else {
-  //   if (MuniFilter.length === stations.length) {
+  //   if (ModeFilter.length === MuniFilter.length || ModeFilter.length === GradeFilter.length) {
   //     ModeFilter = MuniFilter.features.filter(a => a.properties.type.replace('_', ' ') === Mode);
   //   } else {
   //     ModeFilter = MuniFilter.filter(a => a.properties.type.replace('_', ' ') === Mode);
   //   }
   // }
-  L.geoJSON(GradeFilter).bindPopup(function (layer) {
+  L.geoJSON(ModeFilter).bindPopup(function (layer) {
     return layer.feature.properties.station + ": " + layer.feature.properties.sc_aph;
   }).addTo(stationLayer);
 };

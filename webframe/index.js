@@ -1,34 +1,11 @@
-/*function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 13,
-    center: { lat: 39.9526, lng: -75.1652 },
-  });
-  const transitLayer = new google.maps.TransitLayer();
-
-  transitLayer.setMap(map);
-}
-
-window.initMap = initMap;
-*/
-const scoremap = L.map('map').setView([39.9526, -75.1652], 13);
+// Map and Layer
+const scoremap = L.map('map').setView([39.9526, -75.1652], 11);
 const stationLayer = L.layerGroup().addTo(scoremap);
 
-L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
-  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+L.tileLayer('https://api.mapbox.com/styles/v1/hlechuan/ckygb56s41bo614o8h16eyz4m/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiaGxlY2h1YW4iLCJhIjoiY2t5Z2IyMTl5MHhoYjJ3bWw1c2xvaDEwYyJ9.MHPJtyIHAt7moC3UYhYIjg', {
+  attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   ext: 'png',
 }).addTo(scoremap);
-
-// let p1;
-// let showpoints;
-// fetch('station_final_0421_2.geojson')
-//   .then(resp => resp.json())
-//   .then(data => {
-//     showpoints = data;
-//     p1 = L.geoJSON(data).
-//     bindTooltip(l => l.features.properties.station).
-//     addTo(map);
-//   });
-
 
 // Lines
 fetch('https://arcgis.dvrpc.org/portal/rest/services/Transportation/PassengerRail/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson')
@@ -132,59 +109,7 @@ function ModeSelect() {
       ModeFilter = MuniFilter.filter(a => a.properties.type.replace('_', ' ') === Mode);
     }
   }
-  // let ModeFilter;
-  // if (Mode === '')  {
-  //   ModeFilter = MuniFilter;
-  // } else {
-  //   if (ModeFilter.length === MuniFilter.length || ModeFilter.length === GradeFilter.length) {
-  //     ModeFilter = MuniFilter.features.filter(a => a.properties.type.replace('_', ' ') === Mode);
-  //   } else {
-  //     ModeFilter = MuniFilter.filter(a => a.properties.type.replace('_', ' ') === Mode);
-  //   }
-  // }
   L.geoJSON(ModeFilter).bindPopup(function (layer) {
     return layer.feature.properties.station + ": " + layer.feature.properties.sc_aph;
   }).addTo(stationLayer);
 };
-
-//  ModeSelect.addEventListener('change', handleSelectChange);
-
-// let updateStationMarkers = (stationsToShow) => {
-//   stationLayer.clearLayers();
-//   stationsToShow.forEach((station) => {
-//     const lat = parseFloat(station['geometry.coordinates'].split(',')[0]);
-//     const lng = parseFloat(station['geometry.coordinates'].split(',')[1]);
-//     const stationName = station['properties.station'];
-//     const marker = L.marker([lat, lng]);
-//     marker.bindTooltip(stationName);
-//     stationLayer.addLayer(marker);
-//   });
-// };
-
-// let initializeScoreChoices = () => {
-//   let score = stations['features'].map(a => a.properties.sc_aph);
-//   if (score > 7) {
-//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Larger than 7 (Ideal)</option>`)));
-//   }
-//   if (score > 4.99 && score < 7.01) {
-//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Between 5 and 7 (Mediocre)</option>`)));
-//   }
-//   if (score < 5) {
-//     score.forEach((z) => ScoreSelect.appendChild(htmlToElement(`<option>Lower than 5 (Not ideal)</option>`)));
-//   }
-//   return score;
-// };
-
-// let filteredStations = () => {
-//   let stationFilter = [];
-//   if (ScoreSelect.value === 'All') {
-//     stationFilter = stations.features;
-//   }
-//   return stationFilter;
-// };
-
-
-// // The code below will be run when this script first loads. Think of it as the
-// // initialization step for the web page.
-// initializeScoreChoices();
-// updateStationMarkers(stations);

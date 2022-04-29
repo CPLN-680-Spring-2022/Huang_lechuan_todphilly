@@ -17,9 +17,13 @@ However, all of the factors it used are not weighted; also, it does not include 
 </p>
 
 <h3><b>Scopes and Goals</b></h3>
-<p>Thus, in this project I decide to produce a dashboard to identify possible TOD locations and their feasibility to be redeveloped and renewed based on more comprehensive factors.</p>
+<p>Thus, in this project I decide to develop a method to comprehensively re-analyze the potential of TOD opportunities in Philadelphia MSA (Delaware River Valley) that’s actually feasible and benefits local communities using Multi-Criteria Decision Analysis.</p>
 
 ![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Final_TOD.png)
+
+<p>In addition, help planners to identify which stations are more suitable to have large-scale TOD development, I build this dashboard/webframe.</p>
+
+![arch.diagram](https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/misc/dashboard.jpg)
 
 <h2><b>Folder Organization</b></h2>
 <p>
@@ -39,6 +43,9 @@ However, all of the factors it used are not weighted; also, it does not include 
     </ul>
 <li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/Scripts"><code>/Scripts</code></a>: with R codes to explore the data.</li>
 <li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/webframe"><code>/webframe</code></a>: files required to create dashboard.</li>
+<li>Folder <a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/tree/main/misc"><code>/misc</code></a>: Miscellaneous (proposals, drafts, midpoint presentations).</li>
 <li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Metadata.xlsx"><code>/Metadata.xlsx</code></a>: Metadata for the MCDA Model.</li>
+<li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Captsone_Final_LH.pdf"><code>/Captsone_Final_LH.pdf</code></a>: Final Presentation Slides</li>
+<li><a href="https://github.com/CPLN-680-Spring-2022/Huang_lechuan_todphilly/blob/main/Huang_Todphilly_report.pdf"><code>/Huang_Todphilly_report.pdf</code></a>: Project Final written Report.</li>
 
 </p>

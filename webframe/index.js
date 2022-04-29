@@ -132,7 +132,7 @@ function identify(e) {
   var Information =  "<divstyle='margin-left: 10px;'><b>"+(props.station)+"</b> - "+(props.line)+" ("+(props.operator)+")</div>";
   var stationinfo = "<div style='margin-left: 25px;'> Grade: <b>"+(props.grade)+"</b></div>"
                      +"<div style='margin-left: 25px;'> Location: <b>"+(props.mun_name)+"</b></div>"
-                     +"<div style='margin-left: 25px;'>"+(props.co_name)+", "+(props.state_name)+"</b></div>";
+                     +"<div style='margin-left: 25px;'>"+(props.co_name)+" County, "+(props.state_name)+"</b></div>";
   var Scoreinfo =  "<div><b>TODPhilly Score:</b>&nbsp;&nbsp; <h2 style='display: inline; color: #24abe2;'>"+(props.sc_aph)+" / 10</h2></div>";
   var MCDAinfo ="<div style='margin-left: 15px;margin-top: 10px;'><b style='font-size: 18px'><u>Score Breakdown:</u></b></div>"
                 +"<div style='margin-left: 15px;'><b>Accessibility Score:</b>&nbsp; "+(props.ac_score)+" out of 10</div>" 

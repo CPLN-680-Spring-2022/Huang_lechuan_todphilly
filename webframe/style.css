@@ -19,7 +19,7 @@ a:hover {
     padding: 1rem;
     padding-left: 2rem;
     font-size: 28pt;
-    background-color: #77c9ed;
+    background-color: #24abe2;
     color: #eee;
 }
 .landing {
@@ -62,24 +62,67 @@ ul > li{
 
 .content {
     flex-direction: column;
-    width: 500px;
+    width: 600px;
+    background-color: #bbe2f2;
+    color: #666666;
+}
+.cardclick {
+    font-style: italic;
+    padding-bottom: 10px;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.infobig {
+    padding-top: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.Information {
+    background-color: #102c47;
+    color: white;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: #bbe2f2;
-    color: #eee;
+    font-size: 20px;
 }
-
-.story {
-    width: 100%;
+.scbig {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.scorebox {
     padding: 1rem;
+    background-color: white;
+    border: solid;
+    border-color: #102c47;
+    border-width: 1px;
 }
-
+.big {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.mcdabig {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.MCDAinfo {
+    background-color: white;
+    border: solid;
+    border-color: #102c47;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
 .Footer{
     bottom: 0;
     height: 40px;
     line-height: 40px;
     font-size: 10pt;
-    background-color: #77c9ed;
+    background-color: #24abe2;
     text-align: center;
     color: white;
 }

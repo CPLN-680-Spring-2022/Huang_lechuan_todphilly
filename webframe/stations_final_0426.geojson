@@ -705,7 +705,7 @@
         {"type":"Feature",
             "properties":{"ID":31,
                 "station":"Trenton Transit Center",
-                "line":"RiverLine",
+                "line":"Northeast Corridor",
                 "operator":"NJ Transit",
                 "type_sym":"NJT_Riverline",
                 "type":"Light_Rail",

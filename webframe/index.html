@@ -2,9 +2,11 @@
 <head>
     <title>TODPhilly: assessing TOD index for all rail transit stations in DVRPC</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,10 +22,28 @@
     </div>
 
     <div class="main">
-        <div class="content">
-            <div class="story"></div>
-            <div class="slide-title"></div>
-            <div class="slide-content"></div>
+       <div class="content" id="container">
+            <div class="cardclick" id="cardclick">
+                <h3>Process:</h3>
+                <h4>Click on a station to learn more about its existing TOD orientation and future potential with breakdown of decision factors.</h4>
+                <h4>Click on a dark-green dot - parcels larger than 1 acre to learn more about the existing developable parcels.</h4>
+                <h4>Choose any of the dropdown boxes to filter the stations.</h4>
+                <h4>To identify larger scale TOD development:</h4>
+                    <h4>1. Filter by your criteria;</h4>
+                    <h4>2. Check out the green dots around the remaining stations shown.</h4>
+            </div>
+            <div id="infobig" class="infobig">
+                <div id="Information" class="Information"></div>
+            </div>
+            <div id="scbig" class="scbig">
+                <div class="scorebox" class="scorebox">
+                    <div id="Scoreinfo" class="Scoreinfo"></div>
+                    <div id="stationinfo_all" class="stationinfo_all"></div>
+                </div>
+            </div>
+            <div id="mcdabig" class="mcdabig">
+                <div id="MCDAinfo" class="MCDAinfo"></div>
+            </div>
         </div>
     
         <div class="mapbox">
@@ -64,6 +84,10 @@
     <div class="Footer">
         Re-evaluating TOD Opportunities in Greater Philadelphia&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#disclaimer" class="hp-link" style="text-decoration: none">&nbsp;&nbsp;Disclaimer</a>&nbsp;&nbsp;|&nbsp;&nbsp; - by Lechuan Huang
     </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
    <script src = "index.js"></script>
